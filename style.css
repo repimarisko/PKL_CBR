@@ -1,0 +1,1045 @@
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
+
+
+.container{
+position: absolute;
+width: 100%;
+height: 100%;
+}
+
+/* Frame 1 */
+.frame1{
+position: absolute;
+width: 1440px;
+height: 10240px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
+}
+
+/* Lovepik_com-610897789-Delicious fruit mangosteen vector 1 */
+.gambar1{
+position: absolute;
+width: 800px;
+height: 800px;
+left: 710px;
+top: 72px;
+
+background: url('');
+}
+
+
+/* Rectangle 3 */
+.linear-atas{
+  position: absolute;
+width: 100%;
+height: 4226px;
+left: 0px;
+right: 0px;
+top: 0px;
+
+background: linear-gradient(0.32deg, rgba(121, 18, 123, 0.34) 0.27%, rgba(0, 0, 0, 0) 65.64%), linear-gradient(180deg, rgba(170, 43, 215, 0.34) 0%, rgba(170, 43, 215, 0.316922) 0%, rgba(170, 43, 215, 0) 40.95%);
+}
+
+/* Diagnosa */
+#navbar .diagnosa{
+position: absolute;
+width: 54px;
+height: 15px;
+left: 790px;
+top: 42px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+color: #000000;
+}
+
+
+/* Riwayat */
+#navbar .riwayat{
+position: absolute;
+width: 46px;
+height: 10px;
+left: 893px;
+top: 42px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+color: #000000;
+
+}
+
+/* Tentang */
+#navbar .tentang{
+
+position: absolute;
+width: 47px;
+height: 15px;
+left: 1088px;
+top: 42px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+color: #000000;
+
+}
+
+/* Petunjuk */
+#navbar .petunjuk{
+position: absolute;
+width: 51px;
+height: 15px;
+left: 998px;
+top: 42px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+color: #000000;
+}
+
+
+/* Contact */
+#navbar .contact{
+position: absolute;
+width: 46px;
+height: 15px;
+left: 1186px;
+top: 42px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+color: #000000;
+}
+#navbar .admin{
+position: absolute;
+width: 44px;
+height: 18px;
+left: 1305px;
+top: 39px;
+
+font-family: 'Inter';
+font-style: normal;
+
+font-size: 15px;
+line-height: 18px;
+
+color: #ffffffff;
+
+}
+#navbar .kotak-admin{
+    position: absolute;
+width: 75px;
+height: 28px;
+left: 1288px;
+top: 35px;
+font-weight: 600px ;
+text-align: center;
+color : #ffffff;
+font-family :'Inter';
+
+background: #4F3267;
+border-radius: 5px;
+
+}
+
+
+/* BALITBU SUMBAR */
+#navbar .balitbu{
+position: absolute;
+width: 116px;
+height: 22px;
+left: 166px;
+top: 39px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 22px;
+
+color: #000000;
+}
+
+#navbar .logout{
+  /* Logout */
+
+position: absolute;
+width: 51px;
+height: 18px;
+left: 1310px;
+top: 38px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+
+color: #FFFFFF;
+
+}
+#navbar .tombol-logout{
+  position: absolute;
+width: 88px;
+height: 26px;
+left: 1288px;
+top: 35px;
+
+background: #4F3267;
+border-radius: 5px;
+}
+#tombol .diagnosa-sekarang{
+  
+/* Diagnosa Sekarang */
+
+position: absolute;
+width: 321px;
+height: 30px;
+left: 211px;
+top: 522px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+
+color: #FFFFFF;
+}
+
+/* Halo, selamat datang */
+#p1 .halo{
+position: absolute;
+width: 245px;
+height: 29px;
+left: 126px;
+top: 337px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+color: #000000;
+}
+
+
+
+/* Diagnosa penyakit tanaman manggis */
+#p1 .diagnosa{
+position: absolute;
+width: 584px;
+height: 39px;
+left: 126px;
+top: 383px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 28px;
+line-height: 39px;
+/* identical to box height */
+
+color: #000000;
+
+}
+
+
+#tombol .tombol-diagnosa{
+/* Rectangle 4 */
+
+position: absolute;
+width: 292px;
+height: 68px;
+left: 184px;
+top: 503px;
+
+background: #4F3267;
+border-radius: 12px;
+
+}
+
+/* Rectangle 4 */
+#tombol .signup-kotak{
+position: absolute;
+width: 215px;
+height: 68px;
+left: 112px;
+top: 523px;
+
+background: #C4C4C4;
+border-radius: 12px;
+
+}
+/* Sign Up */
+#tombol .signup-huruf{
+position: absolute;
+width: 95px;
+height: 30px;
+left: 172px;
+top: 542px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+
+color: #000000;
+}
+
+
+/* Rectangle 5 */
+#tombol .login-kotak{
+position: absolute;
+width: 212px;
+height: 68px;
+left: 396px;
+top: 523px;
+
+background: #4F3267;
+border-radius: 13px;
+
+}
+/* Login */
+#tombol .login-huruf{
+position: absolute;
+width: 68px;
+height: 30px;
+left: 468px;
+top: 543px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+
+color: #FFFFFF;
+}
+
+
+/* logo-balitbu 1 */
+.logo{
+position: absolute;
+left: 120px;
+top: 30px;
+
+background: url(logo-balitbu.png);
+}
+
+
+
+
+
+
+/* Rectangle 6 */
+#page2 .manfaat-pertama{
+position: absolute;
+width: 430px;
+height: 226px;
+left: 105px;
+top: 1144px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 32px;
+line-height: 39px;
+
+color: #000000;
+
+}
+
+
+#page2 .manggis-p{
+/* Manggis merupakan salah satu buah yang memiliki banyak manfaat salah satunya dabat mengobati penyakit seperti alzheimer, kanker dan sebagainya. */
+
+position: absolute;
+width: 525px;
+height: 160px;
+left: 108px;
+top: 1200px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+}
+
+
+#page2 .more1{
+/* Ketahui lebih banyak..... */
+
+position: absolute;
+width: 268px;
+height: 29px;
+left: 112px;
+top: 1340px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+color: #1A5D9A;
+}
+
+#page2 .gambar-otak{
+/* otak 1 */
+
+position: absolute;
+width: 269px;
+height: 271px;
+left: 267px;
+top: 1500px;
+opacity: ;
+background: url(otak1.png);
+background-repeat: no-repeat;
+}
+
+#page2 .manggis{
+/* —Pngtree—exquisite mangosteen fruit_477571 1 */
+
+position: absolute;
+width: 369px;
+height: 276px;
+left: 890px;
+top: 1173px;
+
+background: url('');
+
+}
+
+#page2 .sistem-pakar-p{
+/* Sistem Pakar (Expert System) adalah sistem informasi yang berisi pengetahuan manusia yang diterapkan ke dalam komputer. */
+
+position: absolute;
+width: 548px;
+height: 110px;
+left: 785px;
+top: 1590px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+
+}
+#page2 .sistem-pakar{
+
+/* Apa itu Sistem Pakar */
+
+position: absolute;
+width: 320px;
+height: 39px;
+left: 785px;
+top: 1530px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 39px;
+/* identical to box height */
+
+color: #000000;
+}
+
+#page2 .more2{
+/* Ketahui Lebih Banyak..... */
+
+position: absolute;
+width: 276px;
+height: 29px;
+left: 785px;
+top: 1697px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+color: #1A5D9A;
+
+}
+
+#page3 .penyakit{
+
+/* Penyakit pada pohon manggis */
+
+position: absolute;
+width: 700px;
+height: 50px;
+left: 70px;
+top: 2209px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 41px;
+line-height: 50px;
+/* identical to box height */
+
+color: #000000;
+}
+
+#page3 .penyakit-p{
+/* Beberapa penyakit pada pohon manggis antara lain getah kuning, jamur upas, busuk buah, bercak daun dan sebagainya. */
+
+position: absolute;
+width: 693px;
+height: 105px;
+left: 70px;
+top: 2290px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 30px;
+
+color: #000000;
+}
+
+#page3 .gambar-pohon{
+/* tree-576847_640 1 */
+
+position: absolute;
+width: 376px;
+height: 420px;
+left: 920px;
+top: 2130px;
+
+background: url('');
+}
+
+
+#page3 .tahapan{
+/* Tahapan Diagnosa */
+
+position: absolute;
+width: 367px;
+height: 39px;
+left: 513px;
+top: 2604px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 41px;
+line-height: 50px;
+
+color: #000000;
+}
+
+#page3 .gambar-identitas{
+/* ktp 1 */
+
+position: absolute;
+width: 126px;
+height: 126px;
+left: 70px;
+top: 2725px;
+
+background: url('');
+}
+
+#page3 .isidatadiri{
+
+/* Isi Data Diri */
+
+position: absolute;
+width: 110px;
+height: 24px;
+left: 62px;
+top: 2845px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+}
+
+#page3 .gambar-form{
+/* form 1 */
+
+position: absolute;
+width: 179px;
+height: 150px;
+left: 354px;
+top: 2708px;
+
+background: url('');
+}
+
+#page3 .jawabpertanyaan{
+
+/* Jawab pertanyaan */
+
+position: absolute;
+width: 179px;
+height: 24px;
+left: 330px;
+top: 2845px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+}
+
+#page3 .gambar-research{
+
+
+/* research 1 */
+
+position: absolute;
+width: 229px;
+height: 207px;
+left: 691px;
+top: 2684px;
+
+background: url(research.png);
+}
+
+#page3 .lihathasil{
+/* Lihat Hasil Diagnosa */
+
+position: absolute;
+width: 197px;
+height: 24px;
+left: 707px;
+top: 2840px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+}
+
+#page3 .gambar-advice{
+/* advice 1 */
+
+position: absolute;
+width: 166px;
+height: 150px;
+left: 1130px;
+top: 2713px;
+
+background: url('');
+}
+
+#page3 .arahan{
+/* Dapatkan Arahan dan Saran */
+
+position: absolute;
+width: 270px;
+height: 24px;
+left: 1059px;
+top: 2840px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+}
+
+
+#page4 .contact{
+
+/* Contact */
+
+position: absolute;
+width: 192px;
+height: 58px;
+left: 595px;
+top: 3058px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 48px;
+line-height: 58px;
+/* identical to box height */
+
+color: #000000;
+
+}
+
+#page4 .nama{
+/* Nama Lengkap */
+
+position: absolute;
+width: 173px;
+height: 29px;
+left: 244px;
+top: 3229px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+color: #000000;
+}
+
+
+.form-nama{
+/* Rectangle 4 */
+
+position: absolute;
+width: 945px;
+height: 42px;
+left: 244px;
+top: 3312px;
+
+background: #ffffffff;
+border:1px solid;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 6px;
+}
+
+#page4 .email{
+/* Email */
+
+position: absolute;
+width: 63px;
+height: 29px;
+left: 244px;
+top: 3408px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+color: #000000;
+}
+
+.form-email{
+/* Rectangle 5 */
+
+position: absolute;
+width: 945px;
+height: 42px;
+left: 244px;
+top: 3491px;
+
+background: #ffffffff;
+border:1px solid;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 6px;
+
+}
+
+#page4 .pesan{
+/* Pesan */
+
+position: absolute;
+width: 72px;
+height: 29px;
+left: 240px;
+top: 3587px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+color: #000000;
+}
+.submit{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 60px;
+font-size: 20px;
+line-height: 50px;
+color:#ffffffff
+}
+.form-pesan{
+/* Rectangle 6 */
+
+position: absolute;
+width: 944px;
+height: 145px;
+left: 235px;
+top: 3657px;
+
+background: #ffffffff;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 6px;
+}
+
+.submit{
+/* Rectangle 7 */
+
+position: absolute;
+width: 155px;
+height: 54px;
+left: 235px;
+top: 3871px;
+
+background: #4F3267;
+border-radius: 8px;
+}
+
+.kirim{
+/* Kirim */
+
+position: absolute;
+width: 64px;
+height: 29px;
+left: 283px;
+top: 3885px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+}
+
+.linear-bawah{
+
+/* Rectangle 8 */
+
+position: absolute;
+width: 100%;
+height: 4226px;
+left: 0px;
+right: 0px;
+top: 0px;
+
+background: linear-gradient(0.32deg, rgba(121, 18, 123, 0.34) 0.27%, rgba(0, 0, 0, 0) 65.64%), linear-gradient(180deg, rgba(170, 43, 215, 0.34) 0%, rgba(170, 43, 215, 0.316922) 0%, rgba(170, 43, 215, 0) 40.95%);
+border-radius: 5px;
+}
+
+footer{
+  position: absolute;
+  width: 100%;
+  top : 4226px;
+  left: 755px;
+  right: 0px;
+  bottom: 0px;
+  background: #ffffff;
+  border-radius: 5px;
+}
+
+/* Desktop - 1 */
+.kotak-body{
+position: relative;
+width: 1440px;
+height: 1024px;
+
+background: linear-gradient(180deg, rgba(26, 1, 57, 0.39) 0%, rgba(255, 255, 255, 0) 55.37%);
+}
+
+/* Rectangle 1 */
+.kotak-form{
+position: absolute;
+width: 562px;
+height: 695px;
+left: 439px;
+top: 164px;
+
+background: #C4C4C4;
+backdrop-filter: blur(8px);
+/* Note: backdrop-filter has minimal browser support */
+}
+
+/* Sign In */
+.sign-in{
+position: absolute;
+width: 210px;
+height: 77px;
+left: 615px;
+top: 202px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 64px;
+line-height: 77px;
+
+color: #000000;
+}
+
+
+/* Rectangle 2 */
+.kotak-username{
+position: absolute;
+width: 464px;
+height: 52px;
+left: 488px;
+top: 429px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+}
+.username{
+/* Username */
+
+position: absolute;
+width: 155px;
+height: 39px;
+left: 488px;
+top: 380px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 39px;
+/* identical to box height */
+
+color: #000000;
+}
+
+
+/* Password */
+.password{
+position: absolute;
+width: 148px;
+height: 39px;
+left: 491px;
+top: 512px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 39px;
+/* identical to box height */
+
+color: #000000;
+}
+
+
+/* Rectangle 3 */
+.kotak-password{
+position: absolute;
+width: 464px;
+height: 51px;
+left: 488px;
+top: 561px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+}
+
+/* Rectangle 4 */
+.kotak-tombol-login{
+position: absolute;
+width: 234px;
+height: 65px;
+left: 591px;
+top: 671px;
+
+background: #4F3267;
+border-radius: 12px;
+}
+
+/* Login */
+.login-p{
+position: absolute;
+width: 87px;
+height: 39px;
+left: 666px;
+top: 684px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+}
+
+/* Belum punya akun? Daftar */
+.footer-login{
+position: absolute;
+width: 401px;
+height: 39px;
+left: 521px;
+top: 918px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 39px;
+/* identical to box height */
+
+color: #000000;
+}
