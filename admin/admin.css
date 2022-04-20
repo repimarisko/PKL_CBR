@@ -1,29 +1,162 @@
-/* Desktop - 1 */
-.desktop{
-position: relative;
-width: 1440px;
-height: 2378px;
 
-background: #FFFFFF;
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Inter', sans-serif;
 }
+.header{
+    width:100%;
+    height:100;
+}
+.side-nav{
+    width:250px;
+    height:100%;
+    background:#e3a1b8;
+    position:fixed;
+    top:0;
+    left:0;
+    padding:20px 30px;
+
+}
+.nav-logo{
+    font-weight:600;
+    font-size:30px;
+    margin-left:0px;
+}
+.logo{
+    display:block;
+    margin-bottom:80px;
+    margin-top:10px;
+
+}
+.logo-img{
+    width:50px;
+}
+.nav-links{
+    font-size:20px;
+    list-style:none;
+    position:relative;
+    font-weight:semi-bold;
+    margin-bottom:190px
+
+}
+
+.logout{
+    font-size:20px
+}
+.nav-links li{
+    padding:10px 0;
+}
+.nav-links li a{
+    color:#fff;
+    text-decoration:none;
+    padding:10px 0;
+    display:flex;
+    align-items:center;
+}
+.nav-links li a i{
+    font-size:20px;
+    margin-right:10px;
+
+}
+.active{
+    background:#fff;
+    width:100%;
+    height:47px;
+    position:absolute;
+    left:0;
+    top:2.6%;
+    z-index:-1;
+    border-radius:6px;
+    box-shadow:0px 5px 10px rgba(255,255,255,0.4);
+    display:none;
+    transition:top 0.5s;
+
+}
+.nav-links li:hover a{
+    color:#9d78be;
+    transition:0.5s;
+}
+.nav-links li:hover ~ .active{
+    display:block;
+    width:170px;
+    left:-20px;
+    
+    transition:0.4s;
+}
+.nav-links li:nth-child(1):hover ~ .active{
+   top:2%;
+}
+.nav-links li:nth-child(2):hover ~ .active{
+   top:16%;
+}
+.nav-links li:nth-child(3):hover ~ .active{
+   top:30%;
+}
+.nav-links li:nth-child(4):hover ~ .active{
+   top:44%;
+}
+.nav-links li:nth-child(5):hover ~ .active{
+   top:58%;
+}
+.nav-links li:nth-child(6):hover ~ .active{
+   top:72%;
+}
+.nav-links li:nth-child(7):hover ~ .active{
+   top:86%;
+}
+.nav-links li:nth-child(8):hover ~ .active{
+   top:none;
+}
+.logo-icon{
+    display:block;
+    width:45px;
+    font-weight:600;
+    color:#000;
+}
+@media only screen and (max-width:600px){
+    .side-nav{
+        width:110px;
+    }
+    .logo-icon{
+        display:block;
+    }
+    .logo-img{
+        display:none;
+        width:50px;
+    }
+    .nav-links li a p{
+        display:none;
+
+    }
+    .nav-links li a i{
+        margin-right:0;
+    }
+    .nav-links li a{
+        justify-content:center;
+    }
+}
+
 /* Rectangle 1 */
 .kotak-1{
 position: absolute;
 width: 100%;
 height: 146px;
-left: 369px;
+left: 0px;
 top: 0px;
+z-index: -1;
+
 
 background: #4F3267;
 border-radius: 5px;
 }
-
 /* Admin | Profile */
 .nav-admin{
 position: absolute;
 width: 163px;
 height: 28px;
-left: 1370px;
+left: 1700px;
 top: 58px;
 
 font-family: 'Inter';
@@ -199,23 +332,7 @@ color: #000000;
 
 
 /* logout */
-.logout{
-position: absolute;
-width: 76px;
-height: 29px;
-left: 64px;
-top: 1011px;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 29px;
-/* identical to box height */
-
-color: #000000;
-
-}
 
 /* penanganan */
 .penanganan{
@@ -362,12 +479,13 @@ color: #000000;
 .kotak-2{
 position: absolute;
 width: 100%;
-height: 350px;
-left: 369px;
+height: 250px;
+left: 0px;
 top: 130px;
-
+z-index: -1;
 background: #9D78BE;
 border-radius: 0px 0px 8px 8px;
+
 }
 
 /* Selamat Datang */
@@ -811,3 +929,4 @@ top: 1043px;
 
 background: url(user.png);
 }
+
