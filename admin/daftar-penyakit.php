@@ -102,7 +102,7 @@
                             <div align="left">
                                 <div align="left"><?php echo "<h3><em>$data[nm_penyakit]</em></h3>"; ?></div>
                                 <ul>
-                                    <li><label>Definisi Penyakit :</label>
+                                    <li><label>Penyebab :</label>
                                         <p><?php echo "$data[penyebab]"; ?></p>
                                     </li>
                                     <li><label>Solusi :</label>

@@ -19,7 +19,7 @@
                 <div class="logo-icon"></div>
            
             <ul class="nav-links">
-                <li><a href ="#"><p>Penyakit</p></a></li>
+                <li><a href ="../daftar-penyakit.php"><p>Penyakit</p></a></li>
                 <li><a href ="#"><p>Gejala</p></a></li>
                 <li><a href ="#"><p>Riwayat</p></a></li>
                 <li><a href ="#"><p>User</p></a></li>

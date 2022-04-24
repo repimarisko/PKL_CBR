@@ -1,7 +1,7 @@
 /* Desktop - 1 */
 
 position: relative;
-width: 1440px;
+width: 1920px;
 height: 1322px;
 
 background: #FFFFFF;
@@ -10,9 +10,9 @@ background: #FFFFFF;
 /* Rectangle 1 */
 
 position: absolute;
-width: 1071px;
+width: 1425px;
 height: 146px;
-left: 369px;
+left: 495px;
 top: 0px;
 
 background: #4F3267;
@@ -24,7 +24,7 @@ border-radius: 5px;
 position: absolute;
 width: 163px;
 height: 28px;
-left: 1216px;
+left: 1620px;
 top: 58px;
 
 font-family: 'Inter';
@@ -41,9 +41,9 @@ color: #FFFFFF;
 /* Rectangle 2 */
 
 position: absolute;
-width: 1071px;
+width: 1425px;
 height: 250px;
-left: 369px;
+left: 495px;
 top: 130px;
 
 background: #9D78BE;
@@ -55,7 +55,7 @@ border-radius: 0px 0px 8px 8px;
 position: absolute;
 width: 365px;
 height: 58px;
-left: 417px;
+left: 543px;
 top: 226px;
 
 font-family: 'Inter';
@@ -74,7 +74,7 @@ color: #FFFFFF;
 position: absolute;
 width: 133px;
 height: 24px;
-left: 417px;
+left: 543px;
 top: 305px;
 
 font-family: 'Inter';
@@ -92,7 +92,7 @@ color: #FFFFFF;
 position: absolute;
 width: 1065px;
 height: 637px;
-left: 375px;
-top: 478px;
+left: 543px;
+top: 421px;
 
 background: #C4C4C4;
