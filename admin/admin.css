@@ -1,3 +1,8 @@
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
 
 *{
     margin:0;
@@ -77,6 +82,7 @@
 .nav-links li:hover a{
     color:#9d78be;
     transition:0.5s;
+    animation: pulsate 1s ease-in-out infinite;
 }
 .nav-links li:hover ~ .active{
     display:block;
@@ -137,7 +143,20 @@
         justify-content:center;
     }
 }
+.kotak-penyakit1{
+position: absolute;
+width: 1065px;
+height: 637px;
+left: 543px;
+top: 421px;
 
+background: #C4C4C4;
+
+background: #C4C4C4;
+}
+table {
+    margin-left: auto;
+}
 /* Rectangle 1 */
 .kotak-1{
 position: absolute;
@@ -930,3 +949,193 @@ top: 1043px;
 background: url(user.png);
 }
 
+/* Edit Diagnosa */
+.edit-diagnosa{
+position: absolute;
+width: 264px;
+height: 48px;
+left: 492px;
+top: 453px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 48px;
+
+color: #000000;
+}
+
+
+/* ID Diagnosa */
+.id-diagnosa{
+position: absolute;
+width: 86px;
+height: 18px;
+left: 492px;
+top: 589px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;
+}
+
+.kotak-id{
+/* Rectangle 3 */
+
+position: absolute;
+width: 959px;
+height: 42px;
+left: 492px;
+top: 628px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+.kotak-pengguna{
+/* Rectangle 4 */
+
+position: absolute;
+width: 959px;
+height: 42px;
+left: 491px;
+top: 904px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.kotak-penyakit{
+/* Rectangle 6 */
+
+position: absolute;
+width: 959px;
+height: 42px;
+left: 492px;
+top: 1013px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Rectangle 7 */
+.kotak-gejala{
+position: absolute;
+width: 959px;
+height: 42px;
+left: 491px;
+top: 1129px;
+margin-bottom: 100px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Rectangle 5 */
+.kotak-pendiagnosa{
+position: absolute;
+width: 959px;
+height: 42px;
+left: 492px;
+top: 785px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Email Pendiagnosa */
+.email-pendiagnosa{
+position: absolute;
+width: 136px;
+height: 18px;
+left: 497px;
+top: 736px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;
+}
+
+.email-pengguna{
+/* Email Pengguna */
+
+position: absolute;
+width: 115px;
+height: 18px;
+left: 499px;
+top: 858px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;
+}
+
+.penyakit-edit{
+/* Penyakit */
+
+position: absolute;
+width: 62px;
+height: 18px;
+left: 503px;
+top: 974px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;
+
+}
+.gejala-edit{
+/* Gejala */
+
+position: absolute;
+width: 45px;
+height: 18px;
+left: 503px;
+top: 1090px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;
+
+}
+
+.tombol-simpan{
+    
+position: absolute;
+width: 166px;
+height: 58px;
+left: 493px;
+top: 1212px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 17px;
+line-height: 18px;
+
+
+background: #4F3267;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 8px;
+
+}

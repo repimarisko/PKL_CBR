@@ -1,0 +1,98 @@
+/* Desktop - 1 */
+
+position: relative;
+width: 1440px;
+height: 1322px;
+
+background: #FFFFFF;
+
+
+/* Rectangle 1 */
+
+position: absolute;
+width: 1071px;
+height: 146px;
+left: 369px;
+top: 0px;
+
+background: #4F3267;
+border-radius: 5px;
+
+
+/* Admin | Profile */
+
+position: absolute;
+width: 163px;
+height: 28px;
+left: 1216px;
+top: 58px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 23px;
+line-height: 28px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+
+/* Rectangle 2 */
+
+position: absolute;
+width: 1071px;
+height: 250px;
+left: 369px;
+top: 130px;
+
+background: #9D78BE;
+border-radius: 0px 0px 8px 8px;
+
+
+/* Selamat Datang */
+
+position: absolute;
+width: 365px;
+height: 58px;
+left: 417px;
+top: 226px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 58px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+
+/* Admin Balitbu */
+
+position: absolute;
+width: 133px;
+height: 24px;
+left: 417px;
+top: 305px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF;
+
+
+
+/* Rectangle 3 */
+
+position: absolute;
+width: 1065px;
+height: 637px;
+left: 375px;
+top: 478px;
+
+background: #C4C4C4;

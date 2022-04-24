@@ -1,0 +1,2 @@
+<div><br><a href="tambah-penyakit.php" style="background-color:#438eb9;padding:10px;color:#fff;">
+	        Tambah Data</a><br></div><br>
