@@ -66,6 +66,7 @@
     <div class="kotak-15"></div>
 
     <div class="penyakit-1">Penyakit</div>
+    <div class="diagnosa-1">Diagnosa</div>
     <!--  -->
     <a href="#kotak3" class="kotak-3"></a>
     < <a href="#kotak4" class="kotak-12"></a>

@@ -308,6 +308,24 @@ line-height: 29px;
 color: #000000;
 
 }
+.diagnosa-1{
+    /* Diagnosa */
+
+position: absolute;
+width: 161px;
+height: 44px;
+left: 440px;
+top: 926px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height */
+
+color: #000000;
+}
 .diagnosa{
 /* Diagnosa */
 
