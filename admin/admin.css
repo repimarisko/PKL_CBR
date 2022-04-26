@@ -648,24 +648,6 @@ line-height: 44px;
 color: #000000;
 }
 
-.diagnosa-1{
-/* Diagnosa */
-
-position: absolute;
-width: 161px;
-height: 44px;
-left: 381px;
-top: 936px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 500;
-font-size: 36px;
-line-height: 44px;
-/* identical to box height */
-
-color: #000000;
-}
 
 .daftar-1{
 /* Daftar */
@@ -749,7 +731,7 @@ color: #000000;
 position: absolute;
 width: 318px;
 height: 17px;
-left: 519px;
+left: 580px;
 top: 1158px;
 
 font-family: 'Inter';
@@ -825,7 +807,7 @@ color: #000000;
 position: absolute;
 width: 269px;
 height: 17px;
-left: 1507px;
+left: 1587px;
 top: 751px;
 
 font-family: 'Inter';

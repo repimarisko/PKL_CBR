@@ -86,7 +86,7 @@
         <div class="gam-solution"><img src="../img/solutions.png" height="50"></div>
 
         <div class="gejala-1">Gejala</div>
-        <div class="lihat-gejala">Lihat,tambah,hapus dan tambah data gejala</div>
+        <div class="lihat-gejala">Lihat data gejala</div>
         <div class="gam-level"><img src="../img/level.png" height="50"></div>
 
         <div class="daftar-2">Daftar</div>
