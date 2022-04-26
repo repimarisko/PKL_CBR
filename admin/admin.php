@@ -65,8 +65,7 @@
     <div class="kotak-14"></div>
     <div class="kotak-15"></div>
 
-    <div class="penyakit-1">Penyakit</div>
-    <div class="diagnosa-1">Diagnosa</div>
+   
     <!--  -->
     <a href="#kotak3" class="kotak-3"></a>
     < <a href="#kotak4" class="kotak-12"></a>
@@ -81,24 +80,24 @@
         <div class="lihat-penyakit">Lihat, tambah,hapus dan tambah data penyakit</div>
         <div class="gam-admin-1"><img src="../img/daftar-admin.png" height="48"></div>
    
-        <div class="penanganan-1">Penanganan</div>
-        <div class="lihat-penanganan">Lihat, tambah,hapus dan tambah data penanganan</div>
+        <div class="penanganan-1">Gejala</div>
+        <div class="lihat-penanganan">Lihat data gejala</div>
         <div class="gam-solution"><img src="../img/solutions.png" height="50"></div>
 
-        <div class="gejala-1">Gejala</div>
-        <div class="lihat-gejala">Lihat data gejala</div>
+        <div class="gejala-1">Penanganan</div>
+        <div class="lihat-gejala">Lihat, tambah dan hapus data penanganan</div>
         <div class="gam-level"><img src="../img/level.png" height="50"></div>
 
-        <div class="daftar-2">Daftar</div>
+        <div class="daftar-2">Diagnosa</div>
         <div class="lihat-diagnosa">Lihat dan hapus data diagnosa</div>
         <div class="gam-admin-2"><img src="../img/daftar-admin.png" height="50"></div>
 
         <div class="pertanyaan-1">Pertanyaan</div>
-        <div class="lihat-pertanyaan">Lihat, tambah,hapus dan tambah data pertanyaan</div>
+        <div class="lihat-pertanyaan">Lihat dan hapus data pertanyaan</div>
         <div class="gam-pertanyaan"><img src="../img/pertanyaan.png" height="50"></div>
 
         <div class="pengguna-1">Pengguna</div>
-        <div class="lihat-pengguna">Lihat, tambah,hapus dan tambah data pengguna</div>
+        <div class="lihat-pengguna">Lihat, tambah, dan hapus data pengguna</div>
         <div class="gam-user"><img src="../img/user.png" height="50"></div>
 </body>
 
