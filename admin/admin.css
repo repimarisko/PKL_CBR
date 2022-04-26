@@ -177,8 +177,8 @@ top: 58px;
 
 font-family: 'Inter';
 font-style: normal;
-font-weight: 600;
-font-size: 23px;
+font-weight: 400;
+font-size: 19px;
 line-height: 28px;
 /* identical to box height */
 
@@ -573,7 +573,7 @@ background: url(pertanyaan.png);
 position: absolute;
 width: 72px;
 height: 29px;
-left: 640px;
+left: 620px;
 top: 1111px;
 
 font-family: 'Inter';
@@ -674,7 +674,7 @@ color: #000000;
 position: absolute;
 width: 72px;
 height: 29px;
-left: 1596px;
+left: 1563px;
 top: 713px;
 
 font-family: 'Inter';
@@ -693,7 +693,7 @@ color: #000000;
 position: absolute;
 width: 143px;
 height: 29px;
-left: 1070px;
+left: 1100px;
 top: 713px;
 
 font-family: 'Inter';
@@ -731,7 +731,7 @@ color: #000000;
 position: absolute;
 width: 318px;
 height: 17px;
-left: 610px;
+left: 576px;
 top: 1158px;
 
 font-family: 'Inter';
@@ -750,7 +750,7 @@ color: #000000;
 position: absolute;
 width: 333px;
 height: 17px;
-left: 992px;
+left: 1000px;
 top: 1155px;
 
 font-family: 'Inter';
@@ -769,7 +769,7 @@ color: #000000;
 position: absolute;
 width: 324px;
 height: 17px;
-left: 1471px;
+left: 1540px;
 top: 1155px;
 
 font-family: 'Inter';
@@ -786,10 +786,11 @@ color: #000000;
 /* Lihat, tambah,hapus dan tambah data penanganan */
 
 position: absolute;
-width: 340px;
+width: 384px;
 height: 17px;
-left: 967px;
-top: 754px;
+left: 1490px;
+top: 751px;
+
 
 font-family: 'Inter';
 font-style: normal;
@@ -804,11 +805,12 @@ color: #000000;
 .lihat-gejala{
 /* Lihat, tambah,hapus dan tambah gejala */
 
+
 position: absolute;
-width: 269px;
+width: 340px;
 height: 17px;
-left: 1507px;
-top: 751px;
+left: 1080px;
+top: 754px;
 
 font-family: 'Inter';
 font-style: normal;
