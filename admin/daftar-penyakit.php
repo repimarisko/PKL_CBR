@@ -13,14 +13,12 @@
         td {
             border: 1px solid black;
             border-collapse: collapse;
+         
         }
 
-        th,
-        td {
-            padding-top: 10px;
-            padding-bottom: 20px;
-            padding-left: 30px;
-            padding-right: 40px;
+        tr {
+            padding: 4px;
+            
         }
     </style>
 </head>
@@ -93,8 +91,8 @@
     ?>
 
     <div>
-        <div class="kotak-penyakit-2">
-            <table width="100%" bgcolor="#22B5DD">
+        <div>
+            <table width="100%" bgcolor="#22B5DD" class="kotak-penyakit1">
 
                 <tr bgcolor="#9d78b">
                     <td colspan="4" align="center"><b>Dafatar Penyakit Manggis dalam Sistem</b></td>

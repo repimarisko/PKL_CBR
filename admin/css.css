@@ -10,9 +10,9 @@ background: #FFFFFF;
 /* Rectangle 1 */
 
 position: absolute;
-width: 1425px;
+width: 1550px;
 height: 146px;
-left: 495px;
+left: 370px;
 top: 0px;
 
 background: #4F3267;
@@ -41,9 +41,9 @@ color: #FFFFFF;
 /* Rectangle 2 */
 
 position: absolute;
-width: 1425px;
+width: 1550px;
 height: 250px;
-left: 495px;
+left: 370px;
 top: 130px;
 
 background: #9D78BE;
@@ -90,9 +90,563 @@ color: #FFFFFF;
 /* Rectangle 3 */
 
 position: absolute;
-width: 1065px;
-height: 637px;
-left: 543px;
-top: 421px;
+width: 460px;
+height: 230px;
+left: 433px;
+top: 588px;
 
-background: #C4C4C4;
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+/* Rectangle 13 */
+
+position: absolute;
+width: 460px;
+height: 230px;
+left: 446px;
+top: 1019px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+/* Rectangle 14 */
+
+position: absolute;
+width: 460px;
+height: 230px;
+left: 929px;
+top: 1015px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+/* Rectangle 15 */
+
+position: absolute;
+width: 460px;
+height: 230px;
+left: 1425px;
+top: 1015px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+/* pertanyaan 1 */
+
+position: absolute;
+width: 52px;
+height: 50.11px;
+left: 1119px;
+top: 1040px;
+
+background: url(pertanyaan.png);
+
+
+/* Daftar */
+
+position: absolute;
+width: 72px;
+height: 29px;
+left: 640px;
+top: 1110px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+/* Pertanyaan */
+
+position: absolute;
+width: 131px;
+height: 29px;
+left: 1079px;
+top: 1110px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+/* Pengguna */
+
+position: absolute;
+width: 116px;
+height: 29px;
+left: 1584px;
+top: 1104px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+/* Rectangle 11 */
+
+position: absolute;
+width: 460px;
+height: 230px;
+left: 1409px;
+top: 588px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+/* Rectangle 16 */
+
+position: absolute;
+width: 460px;
+height: 230px;
+left: 924px;
+top: 588px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+/* Penyakit */
+
+position: absolute;
+width: 148px;
+height: 44px;
+left: 440px;
+top: 425px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+/* Diagnosa */
+
+position: absolute;
+width: 161px;
+height: 44px;
+left: 452px;
+top: 926px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+/* Daftar */
+
+position: absolute;
+width: 72px;
+height: 29px;
+left: 640px;
+top: 713px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+/* Penanganan */
+
+position: absolute;
+width: 143px;
+height: 29px;
+left: 1070px;
+top: 713px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+/* Gejala */
+
+position: absolute;
+width: 72px;
+height: 29px;
+left: 1596px;
+top: 713px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+/* Lihat, tambah,hapus dan tambah data penyakit */
+
+position: absolute;
+width: 314px;
+height: 17px;
+left: 519px;
+top: 757px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+/* Lihat, tambah,hapus dan tambah data diagnosa */
+
+position: absolute;
+width: 318px;
+height: 17px;
+left: 519px;
+top: 1155px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+/* Lihat, tambah,hapus dan tambah data pertanyaan */
+
+position: absolute;
+width: 333px;
+height: 17px;
+left: 992px;
+top: 1158px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+/* Lihat, tambah,hapus dan tambah data pengguna */
+
+position: absolute;
+width: 324px;
+height: 17px;
+left: 1471px;
+top: 1155px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+/* Lihat, tambah,hapus dan tambah data penanganan */
+
+position: absolute;
+width: 340px;
+height: 17px;
+left: 967px;
+top: 751px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+/* Lihat, tambah,hapus dan tambah gejala */
+
+position: absolute;
+width: 263px;
+height: 17px;
+left: 1507px;
+top: 751px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+/* daftar-admin 1 */
+
+position: absolute;
+width: 52px;
+height: 53px;
+left: 650px;
+top: 643px;
+
+background: url(daftar-admin.png);
+
+
+/* daftar-admin 2 */
+
+position: absolute;
+width: 52px;
+height: 53px;
+left: 650px;
+top: 1037px;
+
+background: url(daftar-admin.png);
+
+
+/* solutions 1 */
+
+position: absolute;
+width: 44px;
+height: 48px;
+left: 1110px;
+top: 645px;
+
+background: url(solutions.png);
+
+
+/* level 1 */
+
+position: absolute;
+width: 44px;
+height: 39.77px;
+left: 1611px;
+top: 656px;
+
+background: url(level.png);
+
+
+/* user 1 */
+
+position: absolute;
+width: 39px;
+height: 50px;
+left: 1622px;
+top: 1043px;
+
+background: url(user.png);
+
+
+/* Google Pixel 2 - 5 */
+
+position: absolute;
+width: 370px;
+height: 1310px;
+left: 0px;
+top: -10px;
+
+background: #F3E3EC;
+
+
+/* Penyakit */
+
+position: absolute;
+width: 102px;
+height: 29px;
+left: 45px;
+top: 162px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+/* logout */
+
+position: absolute;
+width: 76px;
+height: 29px;
+left: 69px;
+top: 1204px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+/* penanganan */
+
+position: absolute;
+width: 148px;
+height: 30px;
+left: 35px;
+top: 261px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 30px;
+
+color: #808080;
+
+
+
+/* gelaja */
+
+position: absolute;
+width: 72px;
+height: 30px;
+left: 36px;
+top: 361px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 30px;
+
+color: #808080;
+
+
+
+/* tingkat gejala */
+
+position: absolute;
+width: 161px;
+height: 30px;
+left: 36px;
+top: 411px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 30px;
+
+color: #808080;
+
+
+
+/* Daftar */
+
+position: absolute;
+width: 75px;
+height: 30px;
+left: 36px;
+top: 211px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 30px;
+
+color: #808080;
+
+
+
+/* Penyebab */
+
+position: absolute;
+width: 119px;
+height: 30px;
+left: 36px;
+top: 311px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 30px;
+
+color: #808080;
+
+
+
+/* logout 1 */
+
+position: absolute;
+width: 20px;
+height: 20.65px;
+left: 16px;
+top: 1208px;
+
+background: url(logout.png);
+
+
+/* repair 1 */
+
+position: absolute;
+width: 51px;
+height: 46px;
+left: 29px;
+top: 48px;
+
+background: url(repair.png);

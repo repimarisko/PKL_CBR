@@ -8,7 +8,6 @@
         $posisi = ($halaman - 1) * $batas;
     }
     ?>
-	
 	<div style="overflow-x:auto;">
 	    <table width="95%" border="0" align="left" cellpadding="2" cellspacing="1" bgcolor="#22B5DD">
 	        <tr bgcolor="#9d78be">

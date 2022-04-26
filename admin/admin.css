@@ -539,62 +539,12 @@ line-height: 24px;
 
 color: #FFFFFF;
 }
-
-
-/* Rectangle 3 */
-.kotak-3{
-position: absolute;
-width: 338px;
-height: 154px;
-left: 369px;
-top: 636px;
-
-background: #FFFFFF;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-/* Rectangle 13 */
-.kotak-13{
-position: absolute;
-width: 338px;
-height: 154px;
-left: 369px;
-top: 1034px;
-
-background: #FFFFFF;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
-}
-/* Rectangle 14 */
-.kotak-14{
-position: absolute;
-width: 338px;
-height: 154px;
-left: 720px;
-top: 1034px;
-
-background: #FFFFFF;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-/* Rectangle 15 */
-.kotak-15{
-position: absolute;
-width: 338px;
-height: 154px;
-left: 1071px;
-top: 1034px;
-
-background: #FFFFFF;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
 /* pertanyaan 1 */
 .gam-pertanyaan{
 position: absolute;
 width: 52px;
 height: 50.11px;
-left: 863px;
+left: 1119px;
 top: 1043px;
 
 background: url(pertanyaan.png);
@@ -605,7 +555,7 @@ background: url(pertanyaan.png);
 position: absolute;
 width: 72px;
 height: 29px;
-left: 502px;
+left: 640px;
 top: 1111px;
 
 font-family: 'Inter';
@@ -624,7 +574,7 @@ color: #000000;
 position: absolute;
 width: 131px;
 height: 29px;
-left: 830px;
+left: 1079px;
 top: 1107px;
 
 font-family: 'Inter';
@@ -643,7 +593,7 @@ color: #000000;
 position: absolute;
 width: 116px;
 height: 29px;
-left: 1174px;
+left: 1584px;
 top: 1098px;
 
 font-family: 'Inter';
@@ -657,37 +607,18 @@ color: #000000;
 
 }
 
-/* Rectangle 11 */
-.kotak-11{
-position: absolute;
-width: 338px;
-height: 154px;
-left: 720px;
-top: 636px;
-
-background: #FFFFFF;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+.penyakit-p{
+    left: 440px;
+    top: 550px;
 }
-.kotak-12{
-/* Rectangle 12 */
 
-position: absolute;
-width: 338px;
-height: 154px;
-left: 1071px;
-top: 636px;
-
-background: #FFFFFF;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
-}
 /* Penyakit */
 .penyakit-1{
 position: absolute;
 width: 148px;
 height: 44px;
-left: 417px;
-top: 547px;
+left: 440px;
+top: 425px;
 
 font-family: 'Inter';
 font-style: normal;
@@ -724,7 +655,7 @@ color: #000000;
 position: absolute;
 width: 72px;
 height: 29px;
-left: 502px;
+left: 610px;
 top: 713px;
 
 font-family: 'Inter';
@@ -743,7 +674,7 @@ color: #000000;
 position: absolute;
 width: 143px;
 height: 29px;
-left: 835px;
+left: 1070px;
 top: 713px;
 
 font-family: 'Inter';
@@ -762,7 +693,7 @@ color: #000000;
 position: absolute;
 width: 72px;
 height: 29px;
-left: 1204px;
+left: 1596px;
 top: 713px;
 
 font-family: 'Inter';
@@ -781,7 +712,7 @@ color: #000000;
 position: absolute;
 width: 314px;
 height: 17px;
-left: 400px;
+left: 519px;
 top: 757px;
 
 font-family: 'Inter';
@@ -800,7 +731,7 @@ color: #000000;
 position: absolute;
 width: 318px;
 height: 17px;
-left: 418px;
+left: 519px;
 top: 1158px;
 
 font-family: 'Inter';
@@ -819,7 +750,7 @@ color: #000000;
 position: absolute;
 width: 333px;
 height: 17px;
-left: 753px;
+left: 992px;
 top: 1155px;
 
 font-family: 'Inter';
@@ -838,7 +769,7 @@ color: #000000;
 position: absolute;
 width: 324px;
 height: 17px;
-left: 1099px;
+left: 1471px;
 top: 1155px;
 
 font-family: 'Inter';
@@ -857,7 +788,7 @@ color: #000000;
 position: absolute;
 width: 340px;
 height: 17px;
-left: 750px;
+left: 967px;
 top: 754px;
 
 font-family: 'Inter';
@@ -874,9 +805,9 @@ color: #000000;
 /* Lihat, tambah,hapus dan tambah gejala */
 
 position: absolute;
-width: 263px;
+width: 269px;
 height: 17px;
-left: 1108px;
+left: 1507px;
 top: 751px;
 
 font-family: 'Inter';
@@ -895,7 +826,7 @@ color: #000000;
 position: absolute;
 width: 52px;
 height: 53px;
-left: 512px;
+left: 630px;
 top: 645px;
 
 background: url(daftar-admin.png);
@@ -906,7 +837,7 @@ background: url(daftar-admin.png);
 position: absolute;
 width: 52px;
 height: 53px;
-left: 508px;
+left: 650px;
 top: 1040px;
 
 background: url(daftar-admin.png);
@@ -917,7 +848,7 @@ background: url(daftar-admin.png);
 position: absolute;
 width: 44px;
 height: 48px;
-left: 867px;
+left: 1110px;
 top: 651px;
 
 background: url(solutions.png);
@@ -928,7 +859,7 @@ background: url(solutions.png);
 position: absolute;
 width: 44px;
 height: 39.77px;
-left: 1205px;
+left: 1611px;
 top: 655px;
 
 background: url(level.png);
@@ -940,7 +871,7 @@ background: url(level.png);
 position: absolute;
 width: 39px;
 height: 50px;
-left: 1196px;
+left: 1622px;
 top: 1043px;
 
 background: url(user.png);
@@ -1125,10 +1056,90 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 8px;
 
 }
-.kotak-penyakit-2{
-    position: absolute;
-width: 1548px;
-height: 934px;
-left: 372px;
-top: 143px;
+.kotak-penyakit1{
+position: absolute;
+width: 1665px;
+height: 637px;
+left: 251px;
+top: 147px;
+
+background: #ffffffff;
+
+background: #ffffffff;
+}
+.kotak-3{
+    /* Rectangle 3 */
+
+position: absolute;
+width: 460px;
+height: 230px;
+left: 433px;
+top: 588px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+.kotak-16{
+    /* Rectangle 16 */
+
+position: absolute;
+width: 460px;
+height: 230px;
+left: 924px;
+top: 588px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.kotak-11{
+    /* Rectangle 11 */
+
+position: absolute;
+width: 460px;
+height: 230px;
+left: 1409px;
+top: 588px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.kotak-13{
+    /* Rectangle 13 */
+
+position: absolute;
+width: 460px;
+height: 230px;
+left: 446px;
+top: 1019px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+.kotak-14{
+    /* Rectangle 14 */
+
+position: absolute;
+width: 460px;
+height: 230px;
+left: 929px;
+top: 1015px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.kotak-15{
+    /* Rectangle 15 */
+
+position: absolute;
+width: 460px;
+height: 230px;
+left: 1425px;
+top: 1015px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
