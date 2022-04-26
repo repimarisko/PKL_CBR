@@ -4,6 +4,9 @@ html { font-family: 'Inter', sans-serif; }
   html { font-family: 'Inter var', sans-serif; }
 }
 
+ul{
+    list-style-type: none;
+}
 *{
     margin:0;
     padding:0;
@@ -143,19 +146,13 @@ html { font-family: 'Inter', sans-serif; }
         justify-content:center;
     }
 }
-.kotak-penyakit1{
-position: absolute;
-width: 1065px;
-height: 637px;
-left: 543px;
-top: 421px;
-
-background: #ffffffff;
-
-background: #ffffffff;
+table{
+    padding:10px;
 }
+
 table {
     margin-left: auto;
+    cellpadding: 50px;
 }
 /* Rectangle 1 */
 .kotak-1{
@@ -1009,18 +1006,7 @@ top: 904px;
 background: #FFFFFF;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.kotak-penyakit{
-/* Rectangle 6 */
 
-position: absolute;
-width: 959px;
-height: 42px;
-left: 492px;
-top: 1013px;
-
-background: #FFFFFF;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
 
 /* Rectangle 7 */
 .kotak-gejala{
@@ -1138,4 +1124,11 @@ background: #4F3267;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 8px;
 
+}
+.kotak-penyakit-2{
+    position: absolute;
+width: 1548px;
+height: 934px;
+left: 372px;
+top: 143px;
 }

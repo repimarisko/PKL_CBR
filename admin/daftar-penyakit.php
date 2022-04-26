@@ -7,6 +7,22 @@
     <link rel="stylesheet" href="admin.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding-top: 10px;
+            padding-bottom: 20px;
+            padding-left: 30px;
+            padding-right: 40px;
+        }
+    </style>
 </head>
 
 <body>
@@ -50,10 +66,10 @@
             </a>
         </div>
     </div>
-    <div class="kotak-2"></div>
+
     <div class="kotak-1"></div>
     <a href="#" class="nav-admin">Admin | Profile</a>
-    <div class="selamat-datang">Selamat Datang</div>
+
     <div class="admin-balitbu">Admin balitbu</div>
 
 
@@ -61,7 +77,7 @@
 
     <!--  -->
 
-   
+
     <a href="#" class="kotak-16"></a>
     <!--  -->
 
@@ -76,15 +92,16 @@
     }
     ?>
 
-    <div >
-        <div class="kotak-penyakit1">
-            <table width="100%"  border="0" cellpadding="5" cellspacing="3" bgcolor="#22B5DD">
+    <div>
+        <div class="kotak-penyakit-2">
+            <table width="100%" bgcolor="#22B5DD">
+
                 <tr bgcolor="#9d78b">
-                    <td colspan="4" align=""><b>Dafatar Penyakit Manggis dalam Sistem</b></td>
+                    <td colspan="4" align="center"><b>Dafatar Penyakit Manggis dalam Sistem</b></td>
                 </tr>
                 <tr bgcolor="#DBEAF5">
-                    <td align="left" width="23" bgcolor="#9d78be"><b>No</b></td>
-                    <td width="244" bgcolor="#9d78be"><strong>Deskripsi Penyakit</strong></td>
+                    <td align="center" width="23" bgcolor="#9d78be"><b>No</b></td>
+                    <td align="center" width="244" bgcolor="#9d78be"><strong>Deskripsi Penyakit</strong></td>
                 </tr>
                 <?php
                 include "../koneksi.php";
@@ -101,7 +118,7 @@
                         <td>
                             <div align="left">
                                 <div align="left"><?php echo "<h3><em>$data[nm_penyakit]</em></h3>"; ?></div>
-                                <ul>
+                                <ul style="list-style-type: none;">
                                     <li><label>Penyebab :</label>
                                         <p><?php echo "$data[penyebab]"; ?></p>
                                     </li>
