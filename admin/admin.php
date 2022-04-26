@@ -80,12 +80,12 @@
         <div class="lihat-penyakit">Lihat, tambah,hapus dan tambah data penyakit</div>
         <div class="gam-admin-1"><img src="../img/daftar-admin.png" height="48"></div>
    
-        <div class="penanganan-1">Gejala</div>
-        <div class="lihat-penanganan">Lihat data gejala</div>
+        <div class="penanganan-1">Penanganan</div>
+        <div class="lihat-penanganan">Lihat, tambah dan hapus data penanganan</div>
         <div class="gam-solution"><img src="../img/solutions.png" height="50"></div>
 
-        <div class="gejala-1">Penanganan</div>
-        <div class="lihat-gejala">Lihat, tambah dan hapus data penanganan</div>
+        <div class="gejala-1">Gejala</div>
+        <div class="lihat-gejala">Lihat data gejala</div>
         <div class="gam-level"><img src="../img/level.png" height="50"></div>
 
         <div class="daftar-2">Diagnosa</div>

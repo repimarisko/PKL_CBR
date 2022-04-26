@@ -672,9 +672,9 @@ color: #000000;
 /* Penanganan */
 
 position: absolute;
-width: 143px;
+width: 72px;
 height: 29px;
-left: 1070px;
+left: 1596px;
 top: 713px;
 
 font-family: 'Inter';
@@ -691,9 +691,9 @@ color: #000000;
 /* Gejala */
 
 position: absolute;
-width: 72px;
+width: 143px;
 height: 29px;
-left: 1596px;
+left: 1070px;
 top: 713px;
 
 font-family: 'Inter';
@@ -731,7 +731,7 @@ color: #000000;
 position: absolute;
 width: 318px;
 height: 17px;
-left: 580px;
+left: 610px;
 top: 1158px;
 
 font-family: 'Inter';
@@ -807,7 +807,7 @@ color: #000000;
 position: absolute;
 width: 269px;
 height: 17px;
-left: 1500px;
+left: 1507px;
 top: 751px;
 
 font-family: 'Inter';
