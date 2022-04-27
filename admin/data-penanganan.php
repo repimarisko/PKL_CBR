@@ -12,8 +12,8 @@
 include '../koneksi.php';
 ?>
 <form action="">
-    <div class="edit-diagnosa">Edit Penanganan</div>
-    <div class="id-diagnosa">ID Penanganan</div>
+    <div class="edit-diagnosa">Edit Penanganan Penyakit</div>
+    <div class="id-diagnosa">ID Penyakit</div>
     <input type="text" name="id-diagnosa" class="kotak-id" />
     <p><select name="kode_diagnosa" id="kode_penanganan" class="kotak-id">
             <option value="">---Pilih ID---</option>

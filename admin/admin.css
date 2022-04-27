@@ -882,11 +882,11 @@ background: url(user.png);
 
 /* Edit Diagnosa */
 .edit-diagnosa{
-position: absolute;
-width: 264px;
+position: relative;
+width: 300px;
 height: 48px;
 left: 492px;
-top: 453px;
+top: 200px;
 
 font-family: 'Inter';
 font-style: normal;
@@ -904,7 +904,7 @@ position: absolute;
 width: 86px;
 height: 18px;
 left: 492px;
-top: 589px;
+top: 400px;
 
 font-family: 'Inter';
 font-style: normal;
@@ -922,7 +922,7 @@ position: absolute;
 width: 959px;
 height: 42px;
 left: 492px;
-top: 628px;
+top: 460px;
 
 background: #FFFFFF;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -961,8 +961,9 @@ position: absolute;
 width: 959px;
 height: 42px;
 left: 492px;
-top: 785px;
+top: 590px;
 
+border:0px;
 background: #FFFFFF;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }

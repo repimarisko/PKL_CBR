@@ -18,7 +18,7 @@
             <li><a href="data-diagnosa.php">
                     <p>Riwayat</p>
                 </a></li>
-            <li><a href="data-user.php">
+            <li><a href="data-pengguna.php">
                     <p>User</p>
                 </a></li>
             <li><a href="data-penyebab.php">
