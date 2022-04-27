@@ -27,7 +27,7 @@
     <div class="header">
 
         <div class="side-nav">
-            <a href="#" class="logo">
+            <a href="admin.php" class="logo">
                 <img src="../img/logo.png" class="logo-img">
 
             </a>
@@ -73,12 +73,7 @@
 
 
 
-    <!--  -->
-
-
-    <a href="#" class="kotak-16"></a>
-    <!--  -->
-
+  
     <?php
     $batas = 3;  //jumlah data yang akan ditampilkan per halaman
     $halaman = @$_GET['halaman']; // mengecek halaman ke berapa

@@ -29,7 +29,7 @@
     <div class="header">
 
         <div class="side-nav">
-            <a href="#" class="logo">
+            <a href="admin.php" class="logo">
                 <img src="../img/logo.png" class="logo-img">
 
             </a>

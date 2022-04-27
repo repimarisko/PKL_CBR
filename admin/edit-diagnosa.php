@@ -97,13 +97,6 @@ include '../koneksi.php';
 
 
 
-    <!--  -->
-
-
-    <a href="#" class="kotak-16"></a>
-    <!--  -->
-    <!--  -->
-
 
 
 </body>

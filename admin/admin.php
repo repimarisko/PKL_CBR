@@ -10,46 +10,8 @@
 </head>
 
 <body>
-    <div class="header">
-
-        <div class="side-nav">
-            <a href="#" class="logo">
-                <img src="../img/logo.png" class="logo-img">
-
-            </a>
-
-            <div class="logo-icon"></div>
-
-            <ul class="nav-links">
-                <li><a href="../daftar-penyakit.php">
-                        <p>Penyakit</p>
-                    </a></li>
-                <li><a href="#">
-                        <p>Gejala</p>
-                    </a></li>
-                <li><a href="#">
-                        <p>Riwayat</p>
-                    </a></li>
-                <li><a href="#">
-                        <p>User</p>
-                    </a></li>
-                <li><a href="#">
-                        <p>Penyebab</p>
-                    </a></li>
-                <li><a href="#">
-                        <p>Pengobatan</p>
-                    </a></li>
-                <li><a href="#">
-                        <p>Solusi Penyakit</p>
-                    </a></li>
-
-                <div class="active"></div>
-            </ul>
-            <a href="#">
-                <p class="logout">Logout</p>
-            </a>
-        </div>
-    </div>
+    <?php include "header.php" ?>
+    <div class="header"></div>
     <div class="kotak-2"></div>
 
     <a href="#" class="nav-admin">Admin | Profile</a>
@@ -59,11 +21,11 @@
     <div class="kotak-1"></div>
     <div class="kotak-2"></div>
     <a class="kotak-3" href="daftar-penyakit.php"></a>
-    <a class="kotak-16" href="gejala.php"></a>
-    <div class="kotak-11"></div>
-    <div class="kotak-13"></div>
-    <div class="kotak-14"></div>
-    <div class="kotak-15"></div>
+    <a class="kotak-16" href="data-gejala.php"></a>
+    <a class="kotak-11" href="data-penanganan.php"></a>
+    <a class="kotak-13" href="data-diagnosa.php"></a>
+    <a class="kotak-14" href="data-pengguna.php"></a>
+    <a class="kotak-15" href="data-pertanyaan.php"></a>
 
    
  

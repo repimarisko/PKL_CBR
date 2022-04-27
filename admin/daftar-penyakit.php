@@ -13,21 +13,56 @@
         td {
             border: 1px solid black;
             border-collapse: collapse;
-         
+
         }
 
         tr {
             padding: 4px;
-            
+
         }
     </style>
 </head>
 
 <body>
-    <?php
-    include 'admin.php';
-    ?>
     <div class="header">
+
+        <div class="side-nav">
+            <a href="admin.php" class="logo">
+                <img src="../img/logo.png" class="logo-img">
+
+            </a>
+
+            <div class="logo-icon"></div>
+
+            <ul class="nav-links">
+                <li><a href="daftar-penyakit.php">
+                        <p>Penyakit</p>
+                    </a></li>
+                <li><a href="#">
+                        <p>Gejala</p>
+                    </a></li>
+                <li><a href="#">
+                        <p>Riwayat</p>
+                    </a></li>
+                <li><a href="#">
+                        <p>User</p>
+                    </a></li>
+                <li><a href="#">
+                        <p>Penyebab</p>
+                    </a></li>
+                <li><a href="#">
+                        <p>Pengobatan</p>
+                    </a></li>
+                <li><a href="#">
+                        <p>Solusi Penyakit</p>
+                    </a></li>
+
+                <div class="active"></div>
+            </ul>
+            <a href="#">
+                <p class="logout">Logout</p>
+            </a>
+        </div>
     </div>
 
     <div class="kotak-1"></div>
@@ -38,7 +73,7 @@
 
 
 
-   
+
 
     <?php
     $batas = 3;  //jumlah data yang akan ditampilkan per halaman
@@ -61,6 +96,7 @@
                 <tr bgcolor="#DBEAF5">
                     <td align="center" width="23" bgcolor="#9d78be"><b>No</b></td>
                     <td align="center" width="244" bgcolor="#9d78be"><strong>Deskripsi Penyakit</strong></td>
+                    <td align="center" width="20" bgcolor="#9d78be"><strong>Aksi</strong></td>
                 </tr>
                 <?php
                 include "../koneksi.php";
@@ -87,6 +123,15 @@
                             </li>
                             </ul>
 
+                        </td>
+                        <td>
+                            <div align="center">
+                                <a href="hapus-penyakit.php" onclick="return confirm('Apakah anda yakin akan menghapus data ini?')">
+                                    <img src="../img/hapus.png" width="20" height="20">
+                                </a>
+                                <a href="ubah-penyakit.php">
+                                    <img src="../img/ubah.png" width="20" height="20">
+                            </div>
                         </td>
                     </tr>
 

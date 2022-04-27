@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="overflow-x: hidden;">
 
 <head>
     <meta charset="UTF-8">
@@ -41,7 +41,7 @@
         </div>
         <div id="page2">
 
-            
+
             <div class="manfaat-pertama" data-aos="fade-right" data-aos-duration="800">Manfaat Buah Manggis</div>
             <div class="manggis-p" data-aos="fade-right" data-aos-delay="800" data-aos-duration="800">Manggis merupakan salah satu buah yang memiliki banyak manfaat salah satunya dapat mengobati penyakit seperti alzheimer,
                 kanker dan sebagainya.</div>
