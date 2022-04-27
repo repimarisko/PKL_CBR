@@ -19,13 +19,13 @@
 			$stmt->bind_param("i", $id_penyakit);
 			$stmt->execute();
 			if ($stmt->execute())
-				echo "<script>alert('Data Berhasil Dihapus');window.location.href ='berita.php';</script> ";
+				echo "<script>alert('Data Berhasil Dihapus');window.location.href ='daftar-penyakit.php';</script> ";
 			else
-				echo "<script>alert('Data Gagal Dihapus');window.location.href ='berita.php';</script> ";
+				echo "<script>alert('Data Gagal Dihapus');window.location.href ='daftar-penyakit.php';</script> ";
 		}
 		else //Jika data tidak ada didatabase
 		{
-			echo "<script>alert('Data Gagal Dihapus');window.location.href ='berita.php';</script> ";
+			echo "<script>alert('Data Gagal Dihapus');window.location.href ='daftar-penyakit.php';</script> ";
 		}
 	}
 	else

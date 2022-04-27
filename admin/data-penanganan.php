@@ -15,7 +15,7 @@ include '../koneksi.php';
     <div class="edit-diagnosa">Edit Penanganan</div>
     <div class="id-diagnosa">ID Penanganan</div>
     <input type="text" name="id-diagnosa" class="kotak-id" />
-     <p><select name="kode_diagnosa" id="kode_penanganan" class="kotak-id">
+    <p><select name="kode_diagnosa" id="kode_penanganan" class="kotak-id">
             <option value="">---Pilih ID---</option>
             <?php
             $sql   = "SELECT * FROM penanganan";
@@ -25,11 +25,12 @@ include '../koneksi.php';
             }
             ?>
         </select></p>
-    <div class="email-pendiagnosa">Email Pendiagnosa</div>
+    <div class="email-pendiagnosa">Email Penangan</div>
     <input type="email" class="kotak-pendiagnosa" name="email-diagnosa" />
-    <div class="email-pengguna">Email Pengguna</div>
-    <input type="email" class="kotak-pengguna" name="email-pengguna" />
-    <div class="penyakit-edit">Penyakit</div>
+    <div class="email-pengguna">Nama Penangan</div>
+    <input type="text" class="kotak-pengguna" name="Nama" />
+    <div class="penyakit-edit">Penangan</div>
+    <input type="text" class="kotak-penangan" name="penanganan" />
     <p><select name="id_penyakit" id="id_penyakit" class="kotak-penyakit">
             <option value="">---Pilih Penyakit---</option>
             <?php
@@ -65,10 +66,10 @@ include '../koneksi.php';
             }
         </style>
     </div>
-   
+
     <div class="kotak-1"></div>
     <a href="#" class="nav-admin">Admin | Profile</a>
-   
+
 
 
 

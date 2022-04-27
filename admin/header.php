@@ -15,7 +15,7 @@
             <li><a href="data-gejala.php">
                     <p>Gejala</p>
                 </a></li>
-            <li><a href="data-riwayat.php">
+            <li><a href="data-diagnosa.php">
                     <p>Riwayat</p>
                 </a></li>
             <li><a href="data-user.php">
