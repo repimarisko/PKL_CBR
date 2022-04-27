@@ -58,20 +58,15 @@
 
     <div class="kotak-1"></div>
     <div class="kotak-2"></div>
-    <div class="kotak-3"></div>
-    <div class="kotak-16"></div>
+    <a class="kotak-3" href="daftar-penyakit.php"></a>
+    <a class="kotak-16" href="gejala.php"></a>
     <div class="kotak-11"></div>
     <div class="kotak-13"></div>
     <div class="kotak-14"></div>
     <div class="kotak-15"></div>
 
    
-    <!--  -->
-    <a href="#kotak3" class="kotak-3"></a>
-    < <a href="#kotak4" class="kotak-12"></a>
-        <a href="#kotak5" class="kotak-13"></a>
-        <a href="#" class="kotak-14"></a>
-        <a href="#" class="kotak-15"></a>
+ 
 
         <!--  -->
 
