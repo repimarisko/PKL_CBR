@@ -13,57 +13,19 @@
         td {
             border: 1px solid black;
             border-collapse: collapse;
-         
+
         }
 
         tr {
             padding: 4px;
-            
+
         }
     </style>
 </head>
 
 <body>
-    <div class="header">
-
-        <div class="side-nav">
-            <a href="admin.php" class="logo">
-                <img src="../img/logo.png" class="logo-img">
-
-            </a>
-
-            <div class="logo-icon"></div>
-
-            <ul class="nav-links">
-                <li><a href="daftar-penyakit.php">
-                        <p>Penyakit</p>
-                    </a></li>
-                <li><a href="#">
-                        <p>Gejala</p>
-                    </a></li>
-                <li><a href="#">
-                        <p>Riwayat</p>
-                    </a></li>
-                <li><a href="#">
-                        <p>User</p>
-                    </a></li>
-                <li><a href="#">
-                        <p>Penyebab</p>
-                    </a></li>
-                <li><a href="#">
-                        <p>Pengobatan</p>
-                    </a></li>
-                <li><a href="#">
-                        <p>Solusi Penyakit</p>
-                    </a></li>
-
-                <div class="active"></div>
-            </ul>
-            <a href="#">
-                <p class="logout">Logout</p>
-            </a>
-        </div>
-    </div>
+    <?php include "header.php" ?>
+    <div class="header"></div>
 
     <div class="kotak-1"></div>
     <a href="#" class="nav-admin">Admin | Profile</a>
@@ -73,7 +35,7 @@
 
 
 
-  
+
     <?php
     $batas = 3;  //jumlah data yang akan ditampilkan per halaman
     $halaman = @$_GET['halaman']; // mengecek halaman ke berapa

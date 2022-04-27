@@ -20,50 +20,17 @@
             padding: 4px;
 
         }
+
+        ul#modif li {
+            display: inline;
+        
+        }
     </style>
 </head>
 
 <body>
-    <div class="header">
-
-        <div class="side-nav">
-            <a href="admin.php" class="logo">
-                <img src="../img/logo.png" class="logo-img">
-
-            </a>
-
-            <div class="logo-icon"></div>
-
-            <ul class="nav-links">
-                <li><a href="daftar-penyakit.php">
-                        <p>Penyakit</p>
-                    </a></li>
-                <li><a href="#">
-                        <p>Gejala</p>
-                    </a></li>
-                <li><a href="#">
-                        <p>Riwayat</p>
-                    </a></li>
-                <li><a href="#">
-                        <p>User</p>
-                    </a></li>
-                <li><a href="#">
-                        <p>Penyebab</p>
-                    </a></li>
-                <li><a href="#">
-                        <p>Pengobatan</p>
-                    </a></li>
-                <li><a href="#">
-                        <p>Solusi Penyakit</p>
-                    </a></li>
-
-                <div class="active"></div>
-            </ul>
-            <a href="#">
-                <p class="logout">Logout</p>
-            </a>
-        </div>
-    </div>
+    <?php include "header.php" ?>
+    <div class="header"></div>
 
     <div class="kotak-1"></div>
     <a href="#" class="nav-admin">Admin | Profile</a>
@@ -126,11 +93,16 @@
                         </td>
                         <td>
                             <div align="center">
-                                <a href="hapus-penyakit.php" onclick="return confirm('Apakah anda yakin akan menghapus data ini?')">
-                                    <img src="../img/hapus.png" width="20" height="20">
-                                </a>
-                                <a href="ubah-penyakit.php">
-                                    <img src="../img/ubah.png" width="20" height="20">
+                                <ul id="modif">
+                                    <li><a href="hapus-penyakit.php" onclick="return confirm('Apakah anda yakin akan menghapus data ini?')">
+                                            <img src="../img/hapus.png" width="50">
+                                            <p>Hapus</p>
+                                        </a></li>
+                                    <li> <a href="ubah-penyakit.php">
+                                            <img src="../img/edit.png" width="50">
+                                            <p>Ubah</p>
+                                        </a></li>
+                                </ul>
                             </div>
                         </td>
                     </tr>
