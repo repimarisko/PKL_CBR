@@ -88,11 +88,10 @@ include '../koneksi.php';
         <style>form{ margin-bottom: 80px;}
         </style>
     </div>
-    <div class="kotak-2"></div>
+  
     <div class="kotak-1"></div>
     <a href="#" class="nav-admin">Admin | Profile</a>
-    <div class="selamat-datang">Selamat Datang</div>
-    <div class="admin-balitbu">Admin balitbu</div>
+  
 
 
 

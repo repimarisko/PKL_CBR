@@ -58,7 +58,7 @@
             <table width="100%" bgcolor="#22B5DD" class="kotak-penyakit1">
 
                 <tr bgcolor="#9d78b">
-                    <td colspan="4" align="center"><b>Dafatar Gejala pada sistem</b></td>
+                    <td colspan="4" align="center"><b>Daftar Gejala pada sistem</b></td>
                 </tr>
                 <tr bgcolor="#DBEAF5">
                     <td align="center" width="1" bgcolor="#9d78be"><b>No</b></td>
