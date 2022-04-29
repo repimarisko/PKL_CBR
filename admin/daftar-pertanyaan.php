@@ -8,16 +8,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daftar Penyakit</title>
     <style>
-        table,
-        th,
-        td {
+        table {
+            margin-top: 140px;
+            width: 1670px;
             border: 1px solid black;
             border-collapse: collapse;
 
         }
 
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 8px;
+
+        }
+
         tr {
-            padding: 4px;
+            padding: 8px;
 
         }
 
@@ -43,8 +51,8 @@
 
 
     <?php
-    $batas = 3;  
-    $halaman = @$_GET['halaman']; 
+    $batas = 3;
+    $halaman = @$_GET['halaman'];
     if (empty($halaman)) {
         $posisi = 0;
         $halaman = 1;
@@ -55,7 +63,7 @@
 
     <div>
         <div>
-            <table width="100%" bgcolor="#22B5DD" class="kotak-penyakit1">
+            <table width="100%" bgcolor="#22B5DD" >
 
                 <tr bgcolor="#9d78b">
                     <td colspan="4" align="center"><b>Dafatar Penyakit Manggis dalam Sistem</b></td>

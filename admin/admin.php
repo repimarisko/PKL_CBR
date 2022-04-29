@@ -55,7 +55,7 @@
 
         <div class="pengguna-1">Pertanyaan</div>
         <div class="lihat-pengguna">Lihat dan hapus data pertanyaan</div>
-        <div class="gam-user"><img src="../img/user.png" height="50"></div>
+        <div class="gam-user"><img src="../img/pertanyaan.png" height="50"></div>
 </body>
 
 </html>

@@ -8,18 +8,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daftar Gejala</title>
     <style>
-        table,
-        th {
+        table {
+            margin-top: 140px;
+            width: 1670px;
             border: 1px solid black;
             border-collapse: collapse;
 
         }
 
-        tr,
+        th,
         td {
-            padding: 5px;
             border: 1px solid black;
+            border-collapse: collapse;
+            padding: 8px;
 
+        }
+
+        tr {
+            padding: 8px;
+
+        }
+
+        ul#modif li {
+            display: inline;
 
         }
     </style>
@@ -55,7 +66,7 @@
 
     <div>
         <div>
-            <table width="100%" bgcolor="#22B5DD" class="kotak-penyakit1">
+            <table width="100%" bgcolor="#22B5DD">
 
                 <tr bgcolor="#9d78b">
                     <td colspan="4" align="center"><b>Daftar Gejala pada sistem</b></td>

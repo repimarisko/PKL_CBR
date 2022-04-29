@@ -8,7 +8,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daftar Penyakit</title>
     <style>
-        table,
+        table {
+            margin-top: 140px;
+            width: 1670px;
+            border: 1px solid black;
+            border-collapse: collapse;
+            
+        }
+
         th,
         td {
             border: 1px solid black;
@@ -17,13 +24,13 @@
         }
 
         tr {
-            padding: 4px;
+            padding: 8px;
 
         }
 
         ul#modif li {
             display: inline;
-        
+
         }
     </style>
 </head>
@@ -55,10 +62,10 @@
 
     <div>
         <div>
-            <table width="100%" bgcolor="#22B5DD" class="kotak-penyakit1">
+            <table bgcolor="#22B5DD">
 
                 <tr bgcolor="#9d78b">
-                    <td colspan="4" align="center"><b>Dafatar Penyakit Manggis dalam Sistem</b></td>
+                    <td colspan="3" align="center"><b>Dafatar Penyakit Manggis dalam Sistem</b></td>
                 </tr>
                 <tr bgcolor="#DBEAF5">
                     <td align="center" width="23" bgcolor="#9d78be"><b>No</b></td>
@@ -92,10 +99,10 @@
 
                         </td>
                         <td>
-                            
+
                             <div align="center">
-                                
-                                 <ul id="modif">
+
+                                <ul id="modif">
                                     <li><a href="hapus-penyakit.php?kode_penyakit=$row[kode_penyakit]" onclick="return confirm('Apakah anda yakin akan menghapus data ini?')">
                                             <img src="../img/hapus.png" width="50">
                                             <p>Hapus</p>

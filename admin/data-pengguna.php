@@ -55,7 +55,7 @@
 
     <div>
         <div>
-            <table width="100%" bgcolor="#22B5DD" class="kotak-penyakit1">
+            <table width="100%" bgcolor="#22B5DD">
 
                 <tr bgcolor="#9d78b">
                     <td colspan="4" align="center"><b>Dafatar Pengguna</b></td>
