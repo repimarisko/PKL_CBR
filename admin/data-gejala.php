@@ -42,20 +42,9 @@
     <div class="kotak-1"></div>
     <a href="#" class="nav-admin">Admin | Profile</a>
 
-   
-
-
-
-
-    <!--  -->
-
-
-
-    <!--  -->
-
     <?php
-    $batas = 3;  //jumlah data yang akan ditampilkan per halaman
-    $halaman = @$_GET['halaman']; // mengecek halaman ke berapa
+    $batas = 3; 
+    $halaman = @$_GET['halaman']; 
     if (empty($halaman)) {
         $posisi = 0;
         $halaman = 1;

@@ -105,23 +105,29 @@
 
                             <div align="center">
                                 <ul id="modif">
-                                    <li><a href="hapus-penyakit.php?kode_penyakit=$row[kode_penyakit]" onclick="return confirm('Apakah anda yakin akan menghapus data ini?')">
+                                    <li><a href="hapus-penanganan.php?kode_penyakit=$data[kode_penyakit]" onclick="return confirm('Apakah anda yakin akan menghapus data ini?')">
                                             <img src="../img/hapus.png" width="50">
-                                            <p>Hapus</p>
+
                                         </a></li>
-                                    <li> <a href="ubah-penyakit.php">
-                                            <img src="../img/edit.png" width="50">
-                                            <p>Ubah</p>
-                                        </a></li>
+                                  
                                 </ul>
+
                             </div>
                         </td>
                     </tr>
-
                 <?php
                 }
                 ?>
             </table>
+            <a href="tambah-penanganan.php"> <button type="button" class="kotak-tambah" value="kembali" name="kembali" style="font-family: sans-serif;
+    font-size: 15px;
+    background: #4F3267;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    margin-top: 10px">Tambah</button></a>
+
         </div>
     </div>
     <script type="text/javascript">
