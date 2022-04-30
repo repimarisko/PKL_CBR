@@ -6,18 +6,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="admin.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin</title>
+    <title>Daftar Penyakit</title>
     <style>
-        table,
-        th,
-        td {
+        table {
+            margin-top: 140px;
+            width: 1670px;
             border: 1px solid black;
             border-collapse: collapse;
 
         }
 
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 8px;
+
+        }
+
         tr {
-            padding: 4px;
+            padding: 8px;
+
+        }
+
+        ul#modif li {
+            display: inline;
 
         }
     </style>
@@ -30,15 +43,10 @@
     <div class="kotak-1"></div>
     <a href="#" class="nav-admin">Admin | Profile</a>
 
-   
-
-
-
-
 
     <?php
-    $batas = 3;  //jumlah data yang akan ditampilkan per halaman
-    $halaman = @$_GET['halaman']; // mengecek halaman ke berapa
+    $batas = 3;
+    $halaman = @$_GET['halaman'];
     if (empty($halaman)) {
         $posisi = 0;
         $halaman = 1;
@@ -49,18 +57,20 @@
 
     <div>
         <div>
-            <table width="100%" bgcolor="#22B5DD" class="kotak-penyakit1">
+            <table width="100%" bgcolor="#22B5DD" >
 
                 <tr bgcolor="#9d78b">
-                    <td colspan="4" align="center"><b>Dafatar Penyakit Manggis dalam Sistem</b></td>
+                    <td colspan="4" align="center"><b>Dafatar Pertanyaan</b></td>
                 </tr>
                 <tr bgcolor="#DBEAF5">
                     <td align="center" width="23" bgcolor="#9d78be"><b>No</b></td>
-                    <td align="center" width="244" bgcolor="#9d78be"><strong>Deskripsi Penyakit</strong></td>
+                    <td align="center" width="244" bgcolor="#9d78be"><strong>Pertanyaan</strong></td>
+                    <td align="center" width="20" bgcolor="#9d78be"><strong>Aksi</strong></td>
                 </tr>
                 <?php
                 include "../koneksi.php";
-                $sql = "SELECT * FROM penyakit ORDER BY kode_penyakit";
+                $sql = "SELECT * FROM pertanyaan ORDER BY kode_pertanyaan
+                LIMIT $posisi, $batas";
                 $qry = mysqli_query($koneksi, $sql) or die("SQL Error" . mysqli_error($koneksi));
                 $no = 0;
                 while ($data = mysqli_fetch_array($qry)) {
@@ -72,17 +82,34 @@
                         </td>
                         <td>
                             <div align="left">
-                                <div align="left"><?php echo "<h3><em>$data[nm_penyakit]</em></h3>"; ?></div>
+                                <div align="left"><?php echo "<h3><em>$data[kode_pertanyaan]</em></h3>"; ?></div>
                                 <ul style="list-style-type: none;">
                                     <li><label>Penyebab :</label>
                                         <p><?php echo "$data[penyebab]"; ?></p>
                                     </li>
                                     <li><label>Solusi :</label>
                                         <p><?php echo "$data[solusi]"; ?></p>
+                                    </li>
                             </div>
                             </li>
                             </ul>
 
+                        </td>
+                        <td>
+
+                            <div align="center">
+
+                                <ul id="modif">
+                                    <li><a href="hapus-penyakit.php?kode_penyakit=$row[kode_penyakit]" onclick="return confirm('Apakah anda yakin akan menghapus data ini?')">
+                                            <img src="../img/hapus.png" width="50">
+                                            <p>Hapus</p>
+                                        </a></li>
+                                    <li> <a href="ubah-penyakit.php">
+                                            <img src="../img/edit.png" width="50">
+                                            <p>Ubah</p>
+                                        </a></li>
+                                </ul>
+                            </div>
                         </td>
                     </tr>
 

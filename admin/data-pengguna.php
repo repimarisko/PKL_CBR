@@ -57,7 +57,7 @@
             <table width="100%" bgcolor="#22B5DD">
 
                 <tr bgcolor="#9d78b">
-                    <td colspan="4" align="center"><b>Dafatar Pengguna</b></td>
+                    <td colspan="3" align="center"><b>Dafatar Pengguna</b></td>
                 </tr>
                 <tr bgcolor="#DBEAF5">
                     <td align="center" width="23" bgcolor="#9d78be"><b>No</b></td>
