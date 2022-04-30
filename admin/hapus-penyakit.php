@@ -2,11 +2,11 @@
 	include "../koneksi.php";
 	if (isset($_GET['kode_penyakit']))
 	{
-		$id_penyakit  = $_GET['kode_penyakit'];
+		$kode_penyakit  = $_GET['kode_penyakit'];
 		
-		$cek ="SELECT nm_penyakit FROM penyakit WHERE kode_penyakit=? LIMIT 1 ";
+		$cek ="SELECT nm_penyakit FROM penyakit WHERE kode_penyakit=?";
 		$stmt = $koneksi->prepare($cek);
-		$stmt->bind_param("i", $id_penyakit);
+		$stmt->bind_param("i", $kode_penyakit);
 		$stmt->execute();
 		$hasil = $stmt->get_result();			
 		if ($hasil->num_rows > 0)   //Jika data ada didatabase
@@ -16,7 +16,7 @@
 			
 			$sql ="DELETE FROM penyakit WHERE kode_penyakit ='?' ";   //hapus data dari db
 			$stmt = $koneksi->prepare($cek);
-			$stmt->bind_param("i", $id_penyakit);
+			$stmt->bind_param("i", $kode_penyakit);
 			$stmt->execute();
 			if ($stmt->execute())
 				echo "<script>alert('Data Berhasil Dihapus');window.location.href ='daftar-penyakit.php';</script> ";

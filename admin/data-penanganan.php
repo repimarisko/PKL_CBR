@@ -6,14 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="admin.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Edit Penanganan</title>
+    <title>Penanganan Penyakit</title>
 </head>
 <?php
 include '../koneksi.php';
 ?>
 <form action="">
-    <div class="edit-diagnosa">Edit Penanganan Penyakit</div>
-    <div class="id-diagnosa">ID Penyakit</div>
+    <div class="edit-diagnosa">Penanganan Penyakit</div>
+    <div class="id-diagnosa">Nama Penyakit</div>
     <input type="text" name="id-diagnosa" class="kotak-id" />
     <p><select name="kode_diagnosa" id="kode_penanganan" class="kotak-id">
             <option value="">---Pilih Penyakit---</option>
@@ -25,8 +25,8 @@ include '../koneksi.php';
             }
             ?>
         </select></p>
-    <div class="email-pendiagnosa">Penanganan</div>
-    <input type="textarea" class="kotak-penanganan" name="penanganan" />
+    <div class="email-penanganan">Penanganan</div>
+    <input type="text" class="kotak-penanganan" name="penanganan" />
 
     <input type="button" value="Simpan" class="tombol-simpan" />
     </select></p>

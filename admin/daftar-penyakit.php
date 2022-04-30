@@ -42,7 +42,6 @@
     <div class="kotak-1"></div>
     <a href="#" class="nav-admin">Admin | Profile</a>
 
-    <div class="admin-balitbu">Admin balitbu</div>
 
 
 
