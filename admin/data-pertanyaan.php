@@ -57,7 +57,7 @@
 
     <div>
         <div>
-            <table width="100%" bgcolor="#22B5DD" >
+            <table width="100%" bgcolor="#22B5DD">
 
                 <tr bgcolor="#9d78b">
                     <td colspan="4" align="center"><b>Dafatar Pertanyaan</b></td>
@@ -65,6 +65,7 @@
                 <tr bgcolor="#DBEAF5">
                     <td align="center" width="23" bgcolor="#9d78be"><b>No</b></td>
                     <td align="center" width="244" bgcolor="#9d78be"><strong>Pertanyaan</strong></td>
+                    <td align="center" width="244" bgcolor="#9d78be"><strong>Jawaban</strong></td>
                     <td align="center" width="20" bgcolor="#9d78be"><strong>Aksi</strong></td>
                 </tr>
                 <?php
@@ -96,9 +97,22 @@
 
                         </td>
                         <td>
+                            <div align="left">
+                                <div align="left"><?php echo "<h3><em>$data[kode_pertanyaan]</em></h3>"; ?></div>
+                                <ul style="list-style-type: none;">
+                                    <li><label>Penyebab :</label>
+                                        <p><?php echo "$data[penyebab]"; ?></p>
+                                    </li>
+                                    <li><label>Solusi :</label>
+                                        <p><?php echo "$data[solusi]"; ?></p>
+                                    </li>
+                            </div>
+                            </li>
+                            </ul>
 
+                        </td>
+                        <td>
                             <div align="center">
-
                                 <ul id="modif">
                                     <li><a href="hapus-penyakit.php?kode_penyakit=$row[kode_penyakit]" onclick="return confirm('Apakah anda yakin akan menghapus data ini?')">
                                             <img src="../img/hapus.png" width="50">
