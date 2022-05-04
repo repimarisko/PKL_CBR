@@ -24,7 +24,7 @@
             <li><a href="data-penyebab.php">
                     <p>Penyebab</p>
                 </a></li>
-            <li><a href="data-pengobatan.php">
+            <li><a href="data-penanganan.php">
                     <p>Pengobatan</p>
                 </a></li>
             <li><a href="data-solusi.php">
