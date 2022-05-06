@@ -9,7 +9,7 @@
     <title>Admin</title>
 </head>
 
-<body>
+<body onload="zoom()">
     <?php include "header.php" ?>
     <div class="header"></div>
     <div class="kotak-2"></div>
@@ -57,5 +57,11 @@
         <div class="lihat-pengguna">Lihat, jawab dan hapus data pertanyaan</div>
         <div class="gam-user"><img src="../img/pertanyaan.png" height="50"></div>
 </body>
+<script>
+    function zoom()
+    {
+        document.body.style.zoom = "60%";
+    }
+</script>
 
 </html>
