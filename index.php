@@ -8,9 +8,10 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Sistem Pakar Penyakit Tanaman Manggis</title>
+  
 </head>
 
-<body>
+<body onload="zoom()">
     <div class="linear-atas"></div>
     <div class="linear-bawah">
         <div>
@@ -104,6 +105,9 @@
                 .then(response => console.log('Success!', response))
                 .catch(error => console.error('Error!', error.message))
         })
+        function zoom(){
+        document.body.style.zoom ="90%";
+        }
     </script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
