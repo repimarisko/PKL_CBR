@@ -37,7 +37,7 @@
             </div>
 
             <div id="tombol">
-                <a href="#" class="signup-kotak"></a>
+                <a href="session/register.php" class="signup-kotak"></a>
                 <div class="signup-huruf">Sign Up</div>
                 <a href="session/login.php" class="login-kotak"></a>
                 <div class="login-huruf">Login</div>

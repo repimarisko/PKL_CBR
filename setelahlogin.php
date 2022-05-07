@@ -1,3 +1,11 @@
+<?php
+session_start();
+if (!isset($_SESSION['login'])) {
+    header("location: session/login.php");
+    exit;
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en" style="overflow-x: hidden;">
 
@@ -29,7 +37,7 @@
                 <a href="#tentang" class="tentang">Tentang</a>
                 <a href="#petunjuk" class="petunjuk">Petunjuk</a>
                 <a href="#contact" class="contact">Contact</a>
-                <a href="#"><button class="kotak-admin">logout</button></a>
+                <a href="session/logout.php"><button class="kotak-admin">logout</button></a>
             </div>
             <div id="p1">
                 <div class="halo">Halo,Selamat Datang</div>
@@ -38,7 +46,7 @@
 
             <div id="tombol">
                 <a href="#" class="tombol-diagnosa"></a>
-                <a href="#" class="diagnosa-sekarang">Diagnosa Sekarang</a>
+                <a href="#"> <buttton class="diagnosa-sekarang">Diagnosa Sekarang</buttton></a>
             </div>
             <div id="page2">
 

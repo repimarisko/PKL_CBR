@@ -1,8 +1,0 @@
-<div><br><a href="tambah-penyakit.php" style="background-color:#438eb9;padding:10px;color:#fff;">
-	        Tambah Data</a><br></div><br>
-
-
-			  <div id="tombol">
-            <a href="#" class="tombol-diagnosa"></a>
-            <a href="#" class="diagnosa-sekarang">Diagnosa Sekarang</a>
-        </div>
