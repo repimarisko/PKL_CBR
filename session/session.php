@@ -1,49 +1,23 @@
 <?php
-	if (isset($_POST['simpan'])) 
-	{
-			session_start();
-	    	include '../koneksi.php';
-			$username = strip_tags($_POST['username']);
-			$password = strip_tags($_POST['password']);
-			$status='1';
+include "../koneksi.php";
 
-			$sql ="SELECT * FROM user WHERE username=? AND status=? ";
-			$stmt = $koneksi->prepare($sql);
-			$stmt->bind_param("ss", $username, $status);
-			$stmt->execute();
-			$hasil = $stmt->get_result();			
-			if ($hasil->num_rows > 0) 
-			{
-				$data = mysqli_fetch_array($hasil);
-				$nama = $data['nama_user'];
-				$hash = md5($data['password']);
+if(isset($_POST['login'])){
+	$username = $_POST['username'];
+	$password = $_POST['password'];
 
-				if (password_verify($password, $hash) ) 
-				{
-					//set session
-					$_SESSION['username'] 	  = $username;				
-					$_SESSION['password'] 	  = $password;				
-					$_SESSION['status_login'] = "sudah";
+	$result=mysqli_query($koneksi, "select * from pengguna where username='$username'");
 
-					echo "Login Berhasil";
-					//echo '<meta http-equiv="refresh" content="0; url=admin/index.php">';
-					header('Location: ../setelahlogin.php');
-					exit();
-				}
-				else{
-					$_SESSION['pesan'] = 'Password Salah';
-					header("Location: ../login.php");
-				}
-			}
-			else
-			{
-				$_SESSION['pesan'] = 'User tidak ditemukan';
-				header("Location: ../login.php");
-			}
-			
-	} 
-	else
-	{		
-		header("Location: ../login.php");
+
+	if(mysqli_num_rows($result) === 1){
+
+
+		$row=mysqli_fetch_assoc($result);
+
+		if(password_verify($password, $row['password']) ){
+			header("location: ../setelahlogin.php");
+			exit;
+		}
 	}
+	$error = true;
+}
 ?>

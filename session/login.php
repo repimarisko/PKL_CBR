@@ -13,22 +13,15 @@
     <?php include "../koneksi.php"; ?>
 
     <div class="kotak-body">
-        <div class="kotak-form"></div>
-        <?php
-        if (isset($_SESSION['pesan']) && $_SESSION['pesan'] != '') {
-            echo '<div  class="pesan">
-        		 ' . $_SESSION['pesan'] . '
-        	  </div>';
-        }
-        $_SESSION['pesan'] = '';
-        ?>
+    <div class="kotak-form"></div>
+        
         <form action="session.php" method="POST">
             <div class="sign-in">Sign In</div>
             <div class="username">Username</div>
             <input type="text" id="username" value="<?php $username ?>" name="username" class="kotak-username" />
             <div class="password">password</div>
             <input type="password" value="<?php $password ?>" name="password" class="kotak-password" />
-            <input type="submit" class="kotak-tombol-login">
+            <input type="submit" name="login" class="kotak-tombol-login">
 
         </form>
         <div class="tambah-akun">Belum Punya Akun?<a href="register.php">Daftar</a></div>
