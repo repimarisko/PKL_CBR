@@ -1,11 +1,5 @@
 <?php
 
-session_start();
-if (!isset($_SESSION['login'])) {
-    header("location: session/login.php");
-    exit;
-}
-
 
  function registrasi($data){
     include "koneksi.php";

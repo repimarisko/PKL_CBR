@@ -1215,3 +1215,20 @@ line-height: 39px;
 
 color: #FFFFFF;
 }
+
+.kirim-login{
+position: absolute;
+width: 99px;
+height: 39px;
+left: 665px;
+top: 680px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+/* identical to box height */
+
+color: #FFFFFF;
+}

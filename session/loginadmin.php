@@ -1,4 +1,12 @@
 
+<?php 
+session_start();
+
+if(isset($_SESSION['login'])){
+    header("location: admin/admin.php");
+    exit;
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,7 +15,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="../style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Login Admin</title>
 </head>
 
 <body onload="zoom()">
@@ -16,17 +24,16 @@
     <div class="kotak-body">
     <div class="kotak-form"></div>
         
-        <form action="session.php" method="POST">
-            <div class="sign-in">Sign In</div>
+        <form action="sessionadmin.php" method="POST">
+            <div class="sign-in">Admin</div>
             <div class="username">Username</div>
             <input type="text" id="username" value="<?php $username ?>" name="username" class="kotak-username" />
             <div class="password">password</div>
             <input type="password" value="<?php $password ?>" name="password" class="kotak-password" />
-            <input type="submit" name="login" class="kotak-tombol-login">
+            <input type="submit" name="loginadmin" class="kotak-tombol-login">
             <div class="kirim-login">Kirim</div>
 
         </form>
-        <div class="tambah-akun">Belum Punya Akun?<a href="register.php">Daftar</a></div>
         <script>
             function zoom() {
                 document.body.style.zoom = "90%";

@@ -1,3 +1,11 @@
+<?php
+session_start();
+if (!isset($_SESSION['loginadmin'])) {
+    header("location: ../session/loginadmin.php");
+    exit;
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -27,39 +35,38 @@
     <a class="kotak-14" href="data-pengguna.php"></a>
     <a class="kotak-15" href="data-pertanyaan.php"></a>
 
-   
- 
 
-        <!--  -->
 
-   
-        <div class="daftar-1">Penyakit</div>
-        <div class="lihat-penyakit">Lihat, tambah dan hapus data penyakit</div>
-        <div class="gam-admin-1"><img src="../img/daftar-admin.png" height="48"></div>
-   
-        <div class="penanganan-1">Penanganan</div>
-        <div class="lihat-penanganan">Lihat, tambah dan hapus data penanganan</div>
-        <div class="gam-solution"><img src="../img/level.png" height="50"></div>
 
-        <div class="gejala-1">Gejala</div>
-        <div class="lihat-gejala">Lihat data gejala</div>
-        <div class="gam-level"><img src="../img/solutions.png" height="50"></div>
+    <!--  -->
 
-        <div class="daftar-2">Diagnosa</div>
-        <div class="lihat-diagnosa">Lihat dan hapus data diagnosa</div>
-        <div class="gam-admin-2"><img src="../img/daftar-admin.png" height="50"></div>
 
-        <div class="pertanyaan-1">Pengguna</div>
-        <div class="lihat-pertanyaan">Lihat, tambah dan hapus data pengguna</div>
-        <div class="gam-pertanyaan"><img src="../img/user.png" height="50"></div>
+    <div class="daftar-1">Penyakit</div>
+    <div class="lihat-penyakit">Lihat, tambah dan hapus data penyakit</div>
+    <div class="gam-admin-1"><img src="../img/daftar-admin.png" height="48"></div>
 
-        <div class="pengguna-1">Pertanyaan</div>
-        <div class="lihat-pengguna">Lihat, jawab dan hapus data pertanyaan</div>
-        <div class="gam-user"><img src="../img/pertanyaan.png" height="50"></div>
+    <div class="penanganan-1">Penanganan</div>
+    <div class="lihat-penanganan">Lihat, tambah dan hapus data penanganan</div>
+    <div class="gam-solution"><img src="../img/level.png" height="50"></div>
+
+    <div class="gejala-1">Gejala</div>
+    <div class="lihat-gejala">Lihat data gejala</div>
+    <div class="gam-level"><img src="../img/solutions.png" height="50"></div>
+
+    <div class="daftar-2">Diagnosa</div>
+    <div class="lihat-diagnosa">Lihat dan hapus data diagnosa</div>
+    <div class="gam-admin-2"><img src="../img/daftar-admin.png" height="50"></div>
+
+    <div class="pertanyaan-1">Pengguna</div>
+    <div class="lihat-pertanyaan">Lihat, tambah dan hapus data pengguna</div>
+    <div class="gam-pertanyaan"><img src="../img/user.png" height="50"></div>
+
+    <div class="pengguna-1">Pertanyaan</div>
+    <div class="lihat-pengguna">Lihat, jawab dan hapus data pertanyaan</div>
+    <div class="gam-user"><img src="../img/pertanyaan.png" height="50"></div>
 </body>
 <script>
-    function zoom()
-    {
+    function zoom() {
         document.body.style.zoom = "67%";
     }
 </script>
