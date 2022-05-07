@@ -36,7 +36,7 @@
     </style>
 </head>
 
-<body>
+<body onload="zoom()">
     <?php include "header.php" ?>
     <div class="header"></div>
     <div class="kotak-1"></div>
@@ -102,6 +102,9 @@
             else
                 return false;
 
+        }
+        function zoom(){
+            document.body.style.zoom = "67%";
         }
     </script>
 

@@ -35,7 +35,7 @@
     </style>
 </head>
 
-<body>
+<body onload="zoom()">
     <?php include "header.php" ?>
     <div class="header"></div>
 
@@ -134,6 +134,9 @@
             else
                 return false;
 
+        }
+        function zoom() {
+            document.body.style.zoom = "67%";
         }
     </script>
 

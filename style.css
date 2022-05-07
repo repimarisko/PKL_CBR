@@ -1024,3 +1024,194 @@ line-height: 39px;
 
 color: #000000;
 }
+
+.tambah-akun{
+/* Belum punya akun? Daftar */
+
+position: absolute;
+width: 401px;
+height: 39px;
+left: 521px;
+top: 918px;
+
+bottom: 20px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 39px;
+/* identical to box height */
+
+color: #000000;
+}
+
+/*                                              Daftar                                     */
+.linear-daftar{
+
+position: relative;
+width: 1920px;
+height: 1024px;
+
+background: linear-gradient(180deg, rgba(26, 1, 57, 0.39) 0%, rgba(255, 255, 255, 0) 55.37%);
+
+}
+/* Rectangle 1 */
+.kotak-daftar{
+position: absolute;
+width: 562px;
+height: 695px;
+left: 455px;
+top: 184px;
+
+background: #C4C4C4;
+backdrop-filter: blur(8px);
+/* Note: backdrop-filter has minimal browser support */
+}
+
+/* Rectangle 5 */
+.kotak-email-daftar{
+box-sizing: border-box;
+
+position: absolute;
+width: 461px;
+height: 52px;
+left: 491px;
+top: 551px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+
+}
+/* Email */
+.email-daftar{
+position: absolute;
+width: 81px;
+height: 39px;
+left: 492px;
+top: 481px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 39px;
+/* identical to box height */
+
+color: #000000;
+}
+
+
+/* Sign Up */
+.sign-up-daftar{
+position: absolute;
+width: 241px;
+height: 77px;
+left: 615px;
+top: 202px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 64px;
+line-height: 77px;
+
+color: #000000;
+
+}
+
+/* Rectangle 2 */
+.kotak-username-daftar{
+box-sizing: border-box;
+
+position: absolute;
+width: 461px;
+height: 52px;
+left: 491px;
+top: 394px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+
+}
+/* Username */
+.username-daftar{
+position: absolute;
+width: 155px;
+height: 39px;
+left: 491px;
+top: 335px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 39px;
+/* identical to box height */
+
+color: #000000;
+}
+
+
+/* Password */
+.password-daftar{
+position: absolute;
+width: 148px;
+height: 39px;
+left: 491px;
+top: 626px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 39px;
+/* identical to box height */
+
+color: #000000;
+}
+
+
+/* Rectangle 3 */
+.kotak-password-daftar{
+position: absolute;
+width: 464px;
+height: 51px;
+left: 491px;
+top: 686px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+
+}
+/* Rectangle 4 */
+.tombol-daftar{
+position: absolute;
+width: 234px;
+height: 65px;
+left: 603px;
+top: 779px;
+
+background: #4F3267;
+border-radius: 12px;
+}
+
+/* Daftar */
+.daftar-daftar{
+position: absolute;
+width: 99px;
+height: 39px;
+left: 678px;
+top: 792px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+/* identical to box height */
+
+color: #FFFFFF;
+}

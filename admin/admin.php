@@ -60,7 +60,7 @@
 <script>
     function zoom()
     {
-        document.body.style.zoom = "60%";
+        document.body.style.zoom = "67%";
     }
 </script>
 
