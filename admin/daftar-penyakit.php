@@ -35,7 +35,7 @@
     </style>
 </head>
 
-<body>
+<body onload="zoom()">
     <?php include "header.php" ?>
     <div class="header"></div>
 

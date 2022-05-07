@@ -1,4 +1,4 @@
-<div class="header">
+<div class="header" onload="zoom()">
 
     <div class="side-nav">
         <a href="admin.php" class="logo">
@@ -38,3 +38,8 @@
         </a>
     </div>
 </div>
+<script>
+    function zoom() {
+        document.body.style.zoom = "80%";
+    }
+</script>

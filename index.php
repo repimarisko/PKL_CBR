@@ -11,6 +11,7 @@
   
 </head>
 
+
 <body onload="zoom()">
     <div class="linear-atas"></div>
     <div class="linear-bawah">
@@ -38,7 +39,7 @@
             <div id="tombol">
                 <a href="#" class="signup-kotak"></a>
                 <div class="signup-huruf">Sign Up</div>
-                <a href="#" class="login-kotak"></a>
+                <a href="session/login.php" class="login-kotak"></a>
                 <div class="login-huruf">Login</div>
             </div>
             <div id="page2">
@@ -106,7 +107,7 @@
                 .catch(error => console.error('Error!', error.message))
         })
         function zoom(){
-        document.body.style.zoom ="90%";
+        document.body.style.zoom ="80%";
         }
     </script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
