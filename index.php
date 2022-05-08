@@ -29,7 +29,7 @@
                 <a href="#tentang" class="tentang">Tentang</a>
                 <a href="#petunjuk" class="petunjuk">Petunjuk</a>
                 <a href="#contact" class="contact">Contact</a>
-                <a href="#"><button class="kotak-admin">admin</button></a>
+                <a href="admin/loginadmin.php"><button class="kotak-admin">admin</button></a>
             </div>
             <div id="p1">
                 <div class="halo">Halo,Selamat Datang</div>
