@@ -42,7 +42,7 @@ if (!isset($_SESSION['loginadmin'])) {
 
 
     <div class="daftar-1">Penyakit</div>
-    <div class="lihat-penyakit">Lihat, tambah dan hapus data penyakit</div>
+    <div class="lihat-penyakit">Lihat, ubah dan hapus data penyakit</div>
     <div class="gam-admin-1"><img src="../img/daftar-admin.png" height="48"></div>
 
     <div class="penanganan-1">Penanganan</div>

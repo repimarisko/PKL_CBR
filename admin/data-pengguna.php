@@ -11,9 +11,9 @@ if (!isset($_SESSION['loginadmin'])) {
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="admin.css">
+    <link rel="stylesheet" href="../assets/admin.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Daftar Penyakit</title>
+    <title>Daftar Pengguna</title>
     <style>
         table,
         th,
@@ -43,11 +43,6 @@ if (!isset($_SESSION['loginadmin'])) {
     <a href="#" class="nav-admin">Admin | Profile</a>
 
 
-
-
-
-
-
     <?php
     $batas = 3;  //jumlah data yang akan ditampilkan per halaman
     $halaman = @$_GET['halaman']; // mengecek halaman ke berapa
@@ -73,7 +68,7 @@ if (!isset($_SESSION['loginadmin'])) {
                 </tr>
                 <?php
                 include "../koneksi.php";
-                $sql = "SELECT * FROM pengguna ORDER BY kode_pengguna";
+                $sql = "SELECT * FROM user ORDER BY id";
                 $qry = mysqli_query($koneksi, $sql) or die("SQL Error" . mysqli_error($koneksi));
                 $no = 0;
                 while ($data = mysqli_fetch_array($qry)) {
@@ -85,12 +80,12 @@ if (!isset($_SESSION['loginadmin'])) {
                         </td>
                         <td>
                             <div align="left">
-                                <div align="left"><?php echo "<h3><em>$data[nm_pengguna]</em></h3>"; ?></div>
+                                <div align="left"><?php echo "<h3><em>$data[username]</em></h3>"; ?></div>
                                 <ul style="list-style-type: none;">
-                                    <li><label>ID Pengguna : <p><?php echo "$data[kode_pengguna]"; ?></p></label>
+                                    <li> <p>ID Pengguna: <?php echo "$data[id]"; ?></p>
 
                                     </li>
-                                    <li><label>Alamat : <p><?php echo "$data[alamat]"; ?></p></label>
+                                    <li><p>Email :<?php echo "$data[email]"; ?></p>
                                     </li>
                             </div>
                             </li>
@@ -102,7 +97,7 @@ if (!isset($_SESSION['loginadmin'])) {
                             <div align="center">
 
                                 <ul id="modif">
-                                    <li><a href="hapus-penyakit.php?kode_penyakit=$row[kode_penyakit]" onclick="return confirm('Apakah anda yakin akan menghapus data ini?')">
+                                    <li><a href="hapus-pengguna.php?id= <?=$data['id'] ?>" onclick="return confirm('Apakah anda yakin akan menghapus data ini?')">
                                             <img src="../img/hapus.png" width="50">
                                             <p>Hapus</p>
                                         </a></li>
@@ -119,6 +114,15 @@ if (!isset($_SESSION['loginadmin'])) {
                 }
                 ?>
             </table>
+            <a href="../session/register.php"> <button type="button" class="kotak-tambah" value="kembali" name="kembali" style="font-family: sans-serif;
+    font-size: 15px;
+    background: #4F3267;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    margin-top: 10px">Tambah</button></a>
+
         </div>
     </div>
     <script type="text/javascript">

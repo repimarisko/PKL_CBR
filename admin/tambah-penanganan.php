@@ -39,7 +39,7 @@ include "../koneksi.php";
         <p><input type="textarea" name="penanganan" id="penanganan" placeholder="Isi Penanganan" required minlength="5" maxlength="2000" style="width:70%; height:10%;"></p>
 
         <p>
-            <input type="submit" value="Simpan" name="simpan" style="background:#438eb9;padding:10px;color:#fff;border:0px;">
+            <input type="submit" value="simpan" name="simpan" style="background:#438eb9;padding:10px;color:#fff;border:0px;">
             <input type="reset" value="Batal" name="batal" style="background:#C3250A;padding:10px;color:#fff;border:0px;">
             <a href="data-penanganan.php" value="kembali" name="kembali" style="background:#C3250A;padding:10px;color:#fff;border:5px;">Kembali</a>
         </p>

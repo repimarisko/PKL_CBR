@@ -11,9 +11,9 @@ if (!isset($_SESSION['loginadmin'])) {
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="admin.css">
+    <link rel="stylesheet" href="../assets/admin.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Daftar Penyakit</title>
+    <title>Data Penanganan</title>
     <style>
         table {
             margin-top: 140px;
@@ -95,11 +95,6 @@ if (!isset($_SESSION['loginadmin'])) {
                             <div align="left">
                                 <div align="left"><?php echo "<h3><em>$data[nm_penyakit]</em></h3>"; ?></div>
                                 <ul style="list-style-type: none;">
-                                    <li><label>Penyebab :</label>
-                                        <p><?php echo "$data[penyebab]"; ?></p>
-                                    </li>
-                                    <li><label>Solusi :</label>
-                                        <p><?php echo "$data[solusi]"; ?></p>
                             </div>
                             </li>
                             </ul>
@@ -112,7 +107,7 @@ if (!isset($_SESSION['loginadmin'])) {
 
                             <div align="center">
                                 <ul id="modif">
-                                    <li><a href="hapus-penanganan.php?kode_penyakit=$data[kode_penyakit]" onclick="return confirm('Apakah anda yakin akan menghapus data ini?')">
+                                    <li><a name="hapus" href="hapus-penanganan.php?id=<?= $data["id"]; ?>" onclick="return confirm('Apakah anda yakin akan menghapus data ini?')">
                                             <img src="../img/hapus.png" width="50">
 
                                         </a></li>

@@ -103,7 +103,7 @@ if (!isset($_SESSION['loginadmin'])) {
                             <div align="center">
 
                                 <ul id="modif">
-                                    <li><a href="hapus-penyakit.php?kode_penyakit=$row[kode_penyakit]" onclick="return confirm('Apakah anda yakin akan menghapus data ini?')">
+                                    <li><a href="hapus-penyakit.php?kode_penyakit=<?=$data['kode_penyakit']; ?>" onclick="return confirm('Apakah anda yakin akan menghapus data ini?')">
                                             <img src="../img/hapus.png" width="50">
                                             <p>Hapus</p>
                                         </a></li>
