@@ -12,7 +12,7 @@ include "../koneksi.php";
 <div style="margin-top:10px;width:70%">
     <h3>Tambah data Penanganan</h3>
     <form action="simpan-penanganan.php" method="post" onSubmit="return validasi_data()" enctype="multipart/form-data">
-        <p><label>Nama Penyakit</label></p>
+        <p><label>Kode Penyakit</label></p>
         <p><select name="kode_penyakit" id="kode_penyakit" style="width:70%;">
                 <option value="">---Pilih Kode penyakit---</option>
                 <?php

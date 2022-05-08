@@ -103,11 +103,11 @@ if (!isset($_SESSION['loginadmin'])) {
                             <div align="center">
 
                                 <ul id="modif">
-                                    <li><a href="hapus-penyakit.php?kode_penyakit=<?=$data['kode_penyakit']; ?>" onclick="return confirm('Apakah anda yakin akan menghapus data ini?')">
+                                    <li><a href="hapus-penyakit.php?kode_penyakit=<?= $data['kode_penyakit']; ?>" onclick="return confirm('Apakah anda yakin akan menghapus data ini?')">
                                             <img src="../img/hapus.png" width="50">
                                             <p>Hapus</p>
                                         </a></li>
-                                    <li> <a href="ubah-penyakit.php">
+                                    <li> <a href="ubah-penyakit.php?kode_penyakit=<?= $data['kode_penyakit']; ?>">
                                             <img src="../img/edit.png" width="50">
                                             <p>Ubah</p>
                                         </a></li>

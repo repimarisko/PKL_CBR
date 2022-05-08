@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="assets/style.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Sistem Pakar Penyakit Tanaman Manggis</title>
-  
+
 </head>
 
 
@@ -48,7 +48,7 @@
                 <div class="manfaat-pertama" data-aos="fade-right" data-aos-duration="800">Manfaat Buah Manggis</div>
                 <div class="manggis-p" data-aos="fade-right" data-aos-delay="800" data-aos-duration="800">Manggis merupakan salah satu buah yang memiliki banyak manfaat salah satunya dapat mengobati penyakit seperti alzheimer,
                     kanker dan sebagainya.</div>
-                <div class="more1" data-aos="fade-right" data-aos-delay="800" data-aos-duration="1000"><a href="#">Ketahui lebih banyak....</a></div>
+                <div class="more1" data-aos="fade-right" data-aos-delay="800" data-aos-duration="1000"><a href="https://id.wikipedia.org/wiki/Manggis#:~:text=Buah%20ini%20mengandung%20mempunyai%20aktivitas,tradisi%20boga%20India%20dan%20Sumatra.">Ketahui lebih banyak....</a></div>
                 <div class="gambar-otak"><img src="img/otak1.png" alt="otak"></div>
                 <div class="manggis">
 
@@ -56,7 +56,7 @@
                 </div>
                 <div class="sistem-pakar" data-aos="fade-left" data-aos-delay="800" data-aos-duration="800">Sistem Pakar</div>
                 <div class="sistem-pakar-p" data-aos="fade-left" data-aos-delay="1000" data-aos-duration="800">Sistem Pakar (Expert System) adalah sistem informasi yang berisi pengetahuan manusia yang diterapkan ke dalam komputer.</div>
-                <div class="more2" data-aos="fade-left" data-aos-delay="1000" data-aos-duration="800"><a href="#">Ketahui lebih banyak....</a></div>
+                <div class="more2" data-aos="fade-left" data-aos-delay="1000" data-aos-duration="800"><a href="https://id.wikipedia.org/wiki/Sistem_pakar#:~:text=Sistem%20pakar%20adalah%20suatu%20program,secara%20komersial%20selama%201980%2Dan.">Ketahui lebih banyak....</a></div>
 
             </div>
         </div>
@@ -106,13 +106,16 @@
                 .then(response => console.log('Success!', response))
                 .catch(error => console.error('Error!', error.message))
         })
-        function zoom(){
-        document.body.style.zoom ="80%";
+
+        function zoom() {
+            document.body.style.zoom = "80%";
         }
     </script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-        AOS.init();
+        AOS.init({
+            once: false,
+        });
     </script>
 </body>
 
