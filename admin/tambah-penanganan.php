@@ -1,4 +1,12 @@
 <?php
+session_start();
+if (!isset($_SESSION['loginadmin'])) {
+    header("location: ../session/loginadmin.php");
+    exit;
+}
+?>
+
+<?php
 include "../koneksi.php";
 ?>
 <div style="margin-top:10px;width:70%">

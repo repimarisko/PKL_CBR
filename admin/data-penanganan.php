@@ -1,3 +1,10 @@
+<?php
+session_start();
+if (!isset($_SESSION['loginadmin'])) {
+    header("location: ../session/loginadmin.php");
+    exit;
+}
+?>
 <!DOCTYPE html>
 <html lang="en" style="overflow-x: hidden;">
 
@@ -109,7 +116,7 @@
                                             <img src="../img/hapus.png" width="50">
 
                                         </a></li>
-                                  
+
                                 </ul>
 
                             </div>
@@ -139,6 +146,7 @@
                 return false;
 
         }
+
         function zoom() {
             document.body.style.zoom = "67%";
         }

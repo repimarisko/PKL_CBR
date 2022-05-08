@@ -1,3 +1,10 @@
+<?php
+session_start();
+if (!isset($_SESSION['loginadmin'])) {
+    header("location: ../session/loginadmin.php");
+    exit;
+}
+?>
 <!DOCTYPE html>
 <html lang="en" style="overflow-x: hidden;">
 
@@ -43,8 +50,8 @@
     <a href="#" class="nav-admin">Admin | Profile</a>
 
     <?php
-    $batas = 3; 
-    $halaman = @$_GET['halaman']; 
+    $batas = 3;
+    $halaman = @$_GET['halaman'];
     if (empty($halaman)) {
         $posisi = 0;
         $halaman = 1;
@@ -103,7 +110,8 @@
                 return false;
 
         }
-        function zoom(){
+
+        function zoom() {
             document.body.style.zoom = "67%";
         }
     </script>

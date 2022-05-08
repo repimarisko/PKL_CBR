@@ -1,3 +1,10 @@
+<?php
+session_start();
+if (!isset($_SESSION['loginadmin'])) {
+    header("location: ../session/loginadmin.php");
+    exit;
+}
+?>
 <!DOCTYPE html>
 <html lang="en" style="overflow-x: hidden;">
 
@@ -97,7 +104,7 @@
                             <div align="left">
                                 <div align="left"><?php echo "<h3><em>$data[solusi]</em></h3>"; ?></div>
                                 <ul style="list-style-type: none;">
-                                  
+
                             </div>
         </div>
         </li>
@@ -135,10 +142,10 @@
                 return false;
 
         }
+
         function zoom() {
             document.body.style.zoom = "67%";
         }
-
     </script>
 
     </div>

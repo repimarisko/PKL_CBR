@@ -33,7 +33,7 @@
 
             <div class="active"></div>
         </ul>
-        <a href="#">
+        <a href="logout.php">
             <p class="logout">Logout</p>
         </a>
     </div>

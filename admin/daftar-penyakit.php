@@ -1,3 +1,10 @@
+<?php
+session_start();
+if (!isset($_SESSION['loginadmin'])) {
+    header("location: ../session/loginadmin.php");
+    exit;
+}
+?>
 <!DOCTYPE html>
 <html lang="en" style="overflow-x: hidden;">
 
@@ -13,7 +20,7 @@
             width: 1670px;
             border: 1px solid black;
             border-collapse: collapse;
-            
+
         }
 
         th,
@@ -124,6 +131,7 @@
                 return false;
 
         }
+
         function zoom() {
             document.body.style.zoom = "67%";
         }

@@ -1,3 +1,10 @@
+<?php
+session_start();
+if (!isset($_SESSION['loginadmin'])) {
+    header("location: ../session/loginadmin.php");
+    exit;
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -30,7 +37,7 @@ include '../koneksi.php';
             }
             ?>
         </select></p>
-        <div class="gejala-edit">Gejala</div>
+    <div class="gejala-edit">Gejala</div>
     <p><select name="id_gejala" id="id_gejala" class="kotak-gejala">
             <option value="">---Pilih Gejala---</option>
             <?php
@@ -41,7 +48,7 @@ include '../koneksi.php';
             }
             ?>
 
-    <input type="button" value="Simpan" class="tombol-simpan" />
+            <input type="button" value="Simpan" class="tombol-simpan" />
         </select></p>
 </form>
 
@@ -85,13 +92,16 @@ include '../koneksi.php';
                 <p class="logout">Logout</p>
             </a>
         </div>
-        <style>form{ margin-bottom: 80px;}
+        <style>
+            form {
+                margin-bottom: 80px;
+            }
         </style>
     </div>
-  
+
     <div class="kotak-1"></div>
     <a href="#" class="nav-admin">Admin | Profile</a>
-  
+
 
 
 

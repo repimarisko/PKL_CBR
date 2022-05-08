@@ -1,3 +1,10 @@
+<?php
+session_start();
+if (!isset($_SESSION['loginadmin'])) {
+    header("location: ../session/loginadmin.php");
+    exit;
+}
+?>
 <!DOCTYPE html>
 <html lang="en" style="overflow-x: hidden;">
 
@@ -35,7 +42,7 @@
     <div class="kotak-1"></div>
     <a href="#" class="nav-admin">Admin | Profile</a>
 
-   
+
 
 
 
@@ -123,6 +130,7 @@
                 return false;
 
         }
+
         function zoom() {
             document.body.style.zoom = "67%";
         }
