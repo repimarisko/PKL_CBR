@@ -73,4 +73,14 @@ function ubah($data)
     mysqli_query($koneksi, "UPDATE penyakit SET  nm_penyakit='$nm_penyakit', penyebab='$penyebab', solusi='$solusi' WHERE kode_penyakit='$kode_penyakit'");
     return mysqli_affected_rows($koneksi);
 }
+function ubahpengguna($data)
+{
+    include "../koneksi.php";
+    $id = htmlspecialchars($data["id"]);
+    $nama = htmlspecialchars($data["username"]);
+    $email = htmlspecialchars($data["email"]);
+    $password = htmlspecialchars($data["password"]);
+
+    mysqli_query($koneksi, "UPDATE user SET  id='$id', nama='$nama', email='$email', password='$password' WHERE id='$id'");
+}
 ?>

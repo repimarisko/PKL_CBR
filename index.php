@@ -85,7 +85,7 @@
                 <div class="pesan">Pesan</div>
                 <input type="textarea" name="pesan" class="form-pesan">
                 <input type="submit" name="submit" class="submit">
-                <div class="kirim"></div>
+                <div class="kirim" onclick="hapusform()"></div>
             </form>
 
             <footer style="background-color: #79127B;">Copyright&copy;2022</footer>
@@ -93,6 +93,7 @@
 
     </div>
     </div>
+    
     <script>
         const scriptURL = 'https://script.google.com/macros/s/AKfycbyuzRFGfKbkqHLYUUGrp4D8tkIloYstQECqs18Q0-bXMG1hHJ5W1Yfk7_ce5TjjiMI5tg/exec'
         const form = document.forms['form-kontak-balitbu']
@@ -110,6 +111,7 @@
         function zoom() {
             document.body.style.zoom = "80%";
         }
+      
     </script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>

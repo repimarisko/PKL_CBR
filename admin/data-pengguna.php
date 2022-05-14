@@ -101,7 +101,7 @@ if (!isset($_SESSION['loginadmin'])) {
                                             <img src="../img/hapus.png" width="50">
                                             <p>Hapus</p>
                                         </a></li>
-                                    <li> <a href="ubah-penyakit.php">
+                                    <li> <a href="ubah-pengguna.php?id= <?=$data['id'] ?>">
                                             <img src="../img/edit.png" width="50">
                                             <p>Ubah</p>
                                         </a></li>

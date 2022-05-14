@@ -62,7 +62,7 @@ if (!isset($_SESSION['loginadmin'])) {
 
     <div>
         <div>
-            <table bgcolor="#22B5DD ">
+            <table bgcolor="#22B5DD">
 
                 <tr bgcolor="#9d78b">
                     <td colspan="3" align="center"><b>Dafatar Penyakit Manggis dalam Sistem</b></td>
